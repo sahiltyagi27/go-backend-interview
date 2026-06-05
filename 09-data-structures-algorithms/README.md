@@ -1,0 +1,52 @@
+# 09 - Data Structures and Algorithms
+
+## Existing Coverage
+
+Covered in:
+
+- `/Users/sahiltyagi/Desktop/personal projects/data structures`
+- `/Users/sahiltyagi/Desktop/personal projects/algos`
+
+---
+
+## Data Structures Covered
+
+- arrays and slices
+- linked list
+- stack
+- queue
+- hash map
+- set
+- tree
+- graph
+- heap / priority queue
+
+---
+
+## Algorithms Covered
+
+- linear search
+- binary search
+- sorting
+- recursion
+- two pointers
+- sliding window
+- BFS/DFS
+- Dijkstra
+- dynamic programming
+- greedy
+- backtracking
+- string algorithms
+
+---
+
+## Extra Practice Added
+
+See `missing-patterns.md` for:
+
+- trapping rain water
+- container with most water
+- topological sort
+- union find
+- binary search on answer
+- LRU cache
