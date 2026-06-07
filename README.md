@@ -24,6 +24,7 @@ It does not replace the repos we already created. Instead, it acts as the master
 | [07-observability-production](07-observability-production/README.md) | logging, metrics, tracing, production debugging, pprof, memory/performance |
 | [08-system-design-cases](08-system-design-cases/README.md) | URL shortener, rate limiter, Instagram feed, chat, payments, notifications, analytics |
 | [09-data-structures-algorithms](09-data-structures-algorithms/README.md) | data structures and algorithms repos |
+| [10-senior-engineer-skills](10-senior-engineer-skills/README.md) | clean code, SOLID, testing, DDD, architecture decisions, career positioning, AI skills |
 
 ---
 
@@ -47,6 +48,12 @@ It does not replace the repos we already created. Instead, it acts as the master
 | payment retry system | [08-system-design-cases/payment-retry-system.md](08-system-design-cases/payment-retry-system.md) |
 | analytics pipeline | [08-system-design-cases/analytics-pipeline.md](08-system-design-cases/analytics-pipeline.md) |
 | extra DSA patterns | [09-data-structures-algorithms/missing-patterns.md](09-data-structures-algorithms/missing-patterns.md) |
+| clean code, SOLID, design patterns | [10-senior-engineer-skills/clean-code-solid-patterns.md](10-senior-engineer-skills/clean-code-solid-patterns.md) |
+| testing strategy | [10-senior-engineer-skills/testing-strategy.md](10-senior-engineer-skills/testing-strategy.md) |
+| DDD and event-driven design | [10-senior-engineer-skills/ddd-event-driven-design.md](10-senior-engineer-skills/ddd-event-driven-design.md) |
+| capacity planning and architecture decisions | [10-senior-engineer-skills/capacity-planning-architecture-decisions.md](10-senior-engineer-skills/capacity-planning-architecture-decisions.md) |
+| career positioning and project storytelling | [10-senior-engineer-skills/career-positioning.md](10-senior-engineer-skills/career-positioning.md) |
+| AI skills: prompt engineering, RAG, MCP | [10-senior-engineer-skills/ai-skills.md](10-senior-engineer-skills/ai-skills.md) |
 
 ---
 
