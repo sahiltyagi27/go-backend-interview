@@ -9,6 +9,10 @@ It does not replace the repos we already created. Instead, it acts as the master
 - `algos`
 - `system design`
 
+For the full step-by-step study path, read:
+
+- [ROADMAP.md](ROADMAP.md)
+
 ---
 
 ## Folder Map
