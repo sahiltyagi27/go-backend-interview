@@ -78,6 +78,7 @@ Partial coverage exists in:
 
 - `sql-indexes-transactions.md`
 - `redis-caching.md`
+- `../backend-interview-reality-check.md`
 
 These cover:
 
@@ -87,3 +88,6 @@ These cover:
 - Redis cache-aside
 - Redis token bucket concepts
 - Redis sorted sets for feed ranking
+- Redis invalidation on updates
+- TTL indexes and expiry correctness
+- indexing strategy by query pattern

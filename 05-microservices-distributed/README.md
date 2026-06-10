@@ -87,6 +87,7 @@ Partial conceptual coverage exists in:
 
 - `kafka-dlq-outbox.md`
 - `retries-timeouts-circuit-breaker.md`
+- `../backend-interview-reality-check.md`
 
 These cover:
 
@@ -96,3 +97,6 @@ These cover:
 - outbox pattern flow
 - idempotent consumer example
 - distributed lock pitfalls
+- RabbitMQ/Kafka consumer crash behavior
+- message queue vs Redis Pub/Sub
+- Service A to Service B failure handling

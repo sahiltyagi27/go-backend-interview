@@ -61,6 +61,7 @@ Partial coverage exists in:
 
 - `rest-jwt-pagination.md`
 - `idempotency-rate-limit-upload.md`
+- `../backend-interview-reality-check.md`
 
 These cover:
 
@@ -71,3 +72,6 @@ These cover:
 - rate limiter algorithms
 - cursor pagination
 - presigned upload design notes
+- secure API interview answers
+- JWT logout tradeoffs
+- API Gateway responsibilities

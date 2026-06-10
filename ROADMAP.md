@@ -55,6 +55,7 @@ Must know:
 Read:
 
 - [go-concurrency-demo repo](../go-concurrency-demo/README.md)
+- [ping-pong with channels](02-go-concurrency/channels-ping-pong.md)
 - [graceful shutdown](02-go-concurrency/graceful-shutdown.md)
 
 Must know:
@@ -72,6 +73,10 @@ Must know:
 - race conditions
 - goroutine leaks
 - graceful shutdown
+
+Interview drill:
+
+> Explain how two unbuffered channels can force `ping` and `pong` to print in order.
 
 Practice:
 
@@ -115,6 +120,7 @@ Read:
 
 - [SQL, indexes, transactions](04-database-redis/sql-indexes-transactions.md)
 - [Redis and caching](04-database-redis/redis-caching.md)
+- [backend interview reality check](backend-interview-reality-check.md)
 
 Must know:
 
@@ -131,6 +137,8 @@ Must know:
 - cache-aside, write-through, write-behind
 - hot keys
 - distributed lock risks
+- cache invalidation on writes
+- TTL as eventual cleanup, not exact business timing
 
 ---
 
@@ -140,6 +148,7 @@ Read:
 
 - [Kafka, DLQ, outbox](05-microservices-distributed/kafka-dlq-outbox.md)
 - [retries, timeouts, circuit breaker](05-microservices-distributed/retries-timeouts-circuit-breaker.md)
+- [backend interview reality check](backend-interview-reality-check.md)
 
 Must know:
 
@@ -157,6 +166,8 @@ Must know:
 - idempotent consumers
 - DLQ
 - outbox pattern
+- message queue vs Redis Pub/Sub
+- consumer crash and redelivery behavior
 
 ---
 
@@ -244,6 +255,7 @@ Read:
 - [data-structures repo](../data%20structures/README.md)
 - [algos repo](../algos/README.md)
 - [extra DSA patterns](09-data-structures-algorithms/missing-patterns.md)
+- [grid DFS surrounded cities](09-data-structures-algorithms/grid-dfs-surrounded-cities.md)
 
 Must know:
 
@@ -272,6 +284,7 @@ LeetCode practice:
 - Trapping Rain Water
 - Top K Frequent Elements
 - Course Schedule
+- Surrounded cities/grid DFS
 
 ---
 
@@ -369,4 +382,3 @@ You are ready when you can explain these without reading:
 - how to debug a production incident
 - how to design Instagram feed
 - how to discuss tradeoffs clearly
-

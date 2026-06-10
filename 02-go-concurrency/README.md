@@ -43,10 +43,12 @@ Important files:
 
 ## Covered In This Folder
 
+- `channels-ping-pong.md`
 - `graceful-shutdown.md`
 
 This adds:
 
+- strict alternation using unbuffered channels
 - stop accepting new HTTP requests
 - wait for in-flight requests
 - cancel background workers

@@ -50,3 +50,10 @@ See `missing-patterns.md` for:
 - union find
 - binary search on answer
 - LRU cache
+
+See `grid-dfs-surrounded-cities.md` for:
+
+- four-direction grid traversal
+- individual city cell vs connected city component clarification
+- DFS/BFS component counting
+- boundary handling

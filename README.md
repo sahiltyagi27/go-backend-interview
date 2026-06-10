@@ -12,6 +12,7 @@ It does not replace the repos we already created. Instead, it acts as the master
 For the full step-by-step study path, read:
 
 - [ROADMAP.md](ROADMAP.md)
+- [backend-interview-reality-check.md](backend-interview-reality-check.md)
 
 ---
 
@@ -39,6 +40,7 @@ For the full step-by-step study path, read:
 | defer, panic, recover | [01-go-fundamentals/defer-panic-recover.md](01-go-fundamentals/defer-panic-recover.md) |
 | interfaces, pointers, slices, maps | [01-go-fundamentals/interfaces-pointers-slices-maps.md](01-go-fundamentals/interfaces-pointers-slices-maps.md) |
 | error handling | [01-go-fundamentals/errors.md](01-go-fundamentals/errors.md) |
+| ping-pong with channels | [02-go-concurrency/channels-ping-pong.md](02-go-concurrency/channels-ping-pong.md) |
 | graceful shutdown | [02-go-concurrency/graceful-shutdown.md](02-go-concurrency/graceful-shutdown.md) |
 | REST, JWT, pagination | [03-backend-api/rest-jwt-pagination.md](03-backend-api/rest-jwt-pagination.md) |
 | idempotency, rate limiting, upload | [03-backend-api/idempotency-rate-limit-upload.md](03-backend-api/idempotency-rate-limit-upload.md) |
@@ -48,10 +50,12 @@ For the full step-by-step study path, read:
 | retries, timeouts, circuit breaker | [05-microservices-distributed/retries-timeouts-circuit-breaker.md](05-microservices-distributed/retries-timeouts-circuit-breaker.md) |
 | Docker, Kubernetes, CI/CD, GCP | [06-cloud-devops/docker-kubernetes-cicd-gcp.md](06-cloud-devops/docker-kubernetes-cicd-gcp.md) |
 | production debugging and pprof | [07-observability-production/debugging-pprof.md](07-observability-production/debugging-pprof.md) |
+| backend interview reality check | [backend-interview-reality-check.md](backend-interview-reality-check.md) |
 | rate limiter design | [08-system-design-cases/rate-limiter.md](08-system-design-cases/rate-limiter.md) |
 | payment retry system | [08-system-design-cases/payment-retry-system.md](08-system-design-cases/payment-retry-system.md) |
 | analytics pipeline | [08-system-design-cases/analytics-pipeline.md](08-system-design-cases/analytics-pipeline.md) |
 | extra DSA patterns | [09-data-structures-algorithms/missing-patterns.md](09-data-structures-algorithms/missing-patterns.md) |
+| grid DFS surrounded cities | [09-data-structures-algorithms/grid-dfs-surrounded-cities.md](09-data-structures-algorithms/grid-dfs-surrounded-cities.md) |
 | clean code, SOLID, design patterns | [10-senior-engineer-skills/clean-code-solid-patterns.md](10-senior-engineer-skills/clean-code-solid-patterns.md) |
 | testing strategy | [10-senior-engineer-skills/testing-strategy.md](10-senior-engineer-skills/testing-strategy.md) |
 | DDD and event-driven design | [10-senior-engineer-skills/ddd-event-driven-design.md](10-senior-engineer-skills/ddd-event-driven-design.md) |
@@ -101,3 +105,6 @@ Now covered in this folder:
 - Go pprof
 - payment retry system
 - analytics pipeline
+- channel ping-pong interview question
+- grid DFS surrounded-cities interview question
+- backend production interview reality-check questions

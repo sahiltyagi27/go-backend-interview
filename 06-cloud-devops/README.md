@@ -45,6 +45,10 @@
 
 - `docker-kubernetes-cicd-gcp.md`
 
+Also see:
+
+- `../backend-interview-reality-check.md`
+
 This covers:
 
 - Dockerfile for a Go service
