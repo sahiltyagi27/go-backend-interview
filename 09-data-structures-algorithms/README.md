@@ -42,6 +42,17 @@ Covered in:
 
 ## Extra Practice Added
 
+See `../dsa-system-design-most-asked.md` for:
+
+- LRU/LFU Cache
+- Median from Data Stream
+- Word Ladder
+- Merge K Sorted Lists
+- Directed Cycle
+- Kadane
+- Kth Largest in Stream
+- Priority Scheduler
+
 See `missing-patterns.md` for:
 
 - trapping rain water

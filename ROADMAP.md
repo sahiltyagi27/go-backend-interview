@@ -23,6 +23,19 @@ Prepare for Golang backend and senior software engineer interviews by covering:
 - data structures and algorithms
 - senior engineer skills
 
+High-signal revision checklist:
+
+- [DSA + system design most asked](dsa-system-design-most-asked.md)
+
+For 5 YOE Go backend roles, do not treat DSA as the whole interview. The practical priority is:
+
+```text
+1. Go + backend fundamentals
+2. System design
+3. DSA patterns
+4. Resume project explanation
+```
+
 ---
 
 ## Phase 1 - Go Fundamentals
@@ -220,6 +233,7 @@ Must know:
 Read:
 
 - [system-design repo](../system%20design/README.md)
+- [DSA + system design most asked](dsa-system-design-most-asked.md)
 - [rate limiter](08-system-design-cases/rate-limiter.md)
 - [payment retry system](08-system-design-cases/payment-retry-system.md)
 - [analytics pipeline](08-system-design-cases/analytics-pipeline.md)
@@ -234,6 +248,7 @@ Core cases:
 - payment retry system
 - analytics pipeline
 - video upload/transcoding
+- e-commerce checkout
 
 System design flow:
 
@@ -254,6 +269,7 @@ Read:
 
 - [data-structures repo](../data%20structures/README.md)
 - [algos repo](../algos/README.md)
+- [DSA + system design most asked](dsa-system-design-most-asked.md)
 - [extra DSA patterns](09-data-structures-algorithms/missing-patterns.md)
 - [grid DFS surrounded cities](09-data-structures-algorithms/grid-dfs-surrounded-cities.md)
 
@@ -285,6 +301,20 @@ LeetCode practice:
 - Top K Frequent Elements
 - Course Schedule
 - Surrounded cities/grid DFS
+- LRU/LFU Cache
+- Median from Data Stream
+- Word Ladder
+- Merge K Sorted Lists
+- Maximum Subarray Sum
+- Kth Largest in Stream
+
+Daily loop:
+
+```text
+1 DSA problem
+1 backend/system design topic
+1 Go/backend revision topic
+```
 
 ---
 

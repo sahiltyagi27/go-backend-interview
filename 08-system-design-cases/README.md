@@ -53,6 +53,24 @@
 - Deduplication
 - Query performance
 
+### e-commerce checkout
+
+- Cart
+- Inventory reservation
+- Pricing/coupons
+- Payment authorization
+- Order state machine
+- Saga/outbox
+
+### video streaming
+
+- Upload
+- Object storage
+- Transcoding
+- CDN
+- Adaptive bitrate
+- Watch progress
+
 ---
 
 ## Existing Coverage
@@ -80,3 +98,7 @@ These add:
 - payment retry system case study
 - analytics pipeline case study
 - Redis sorted sets coverage through the database/Redis folder
+
+Also see:
+
+- `../dsa-system-design-most-asked.md`
