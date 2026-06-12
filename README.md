@@ -41,6 +41,7 @@ For the full step-by-step study path, read:
 | defer, panic, recover | [01-go-fundamentals/defer-panic-recover.md](01-go-fundamentals/defer-panic-recover.md) |
 | interfaces, pointers, slices, maps | [01-go-fundamentals/interfaces-pointers-slices-maps.md](01-go-fundamentals/interfaces-pointers-slices-maps.md) |
 | error handling | [01-go-fundamentals/errors.md](01-go-fundamentals/errors.md) |
+| generics | [01-go-fundamentals/generics.md](01-go-fundamentals/generics.md) |
 | ping-pong with channels | [02-go-concurrency/channels-ping-pong.md](02-go-concurrency/channels-ping-pong.md) |
 | graceful shutdown | [02-go-concurrency/graceful-shutdown.md](02-go-concurrency/graceful-shutdown.md) |
 | REST, JWT, pagination | [03-backend-api/rest-jwt-pagination.md](03-backend-api/rest-jwt-pagination.md) |

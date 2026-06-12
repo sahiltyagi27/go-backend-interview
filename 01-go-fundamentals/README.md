@@ -57,6 +57,15 @@
 - `errors.As`
 - Custom error types
 
+### generics
+
+- Type parameters
+- `T any`
+- Generic functions
+- Generic types
+- Type constraints
+- Generics vs `interface{}`
+
 ---
 
 ## Existing Coverage
@@ -74,6 +83,7 @@ Partial examples exist in:
 - `defer-panic-recover.md`
 - `interfaces-pointers-slices-maps.md`
 - `errors.md`
+- `generics.md`
 
 These cover:
 
@@ -84,3 +94,4 @@ These cover:
 - `sync.Map` use cases
 - error wrapping and unwrapping
 - interfaces for testing
+- generic functions and type constraints

@@ -47,6 +47,7 @@ Read:
 - [defer, panic, recover](01-go-fundamentals/defer-panic-recover.md)
 - [interfaces, pointers, slices, maps](01-go-fundamentals/interfaces-pointers-slices-maps.md)
 - [error handling](01-go-fundamentals/errors.md)
+- [generics](01-go-fundamentals/generics.md)
 
 Must know:
 
@@ -60,6 +61,8 @@ Must know:
 - map key existence and concurrent map access
 - error wrapping with `%w`
 - `errors.Is` and `errors.As`
+- generic functions with `T any`
+- generic types and constraints
 
 ---
 
