@@ -31,6 +31,7 @@ For the full step-by-step study path, read:
 | [08-system-design-cases](08-system-design-cases/README.md) | URL shortener, rate limiter, Instagram feed, chat, payments, notifications, analytics |
 | [09-data-structures-algorithms](09-data-structures-algorithms/README.md) | data structures and algorithms repos |
 | [10-senior-engineer-skills](10-senior-engineer-skills/README.md) | clean code, SOLID, testing, DDD, architecture decisions, career positioning, AI skills |
+| [11-role-specific](11-role-specific/greyorange.md) | company/role-specific prep notes |
 
 ---
 
@@ -66,6 +67,7 @@ For the full step-by-step study path, read:
 | capacity planning and architecture decisions | [10-senior-engineer-skills/capacity-planning-architecture-decisions.md](10-senior-engineer-skills/capacity-planning-architecture-decisions.md) |
 | career positioning and project storytelling | [10-senior-engineer-skills/career-positioning.md](10-senior-engineer-skills/career-positioning.md) |
 | AI skills: prompt engineering, RAG, MCP | [10-senior-engineer-skills/ai-skills.md](10-senior-engineer-skills/ai-skills.md) |
+| GreyOrange backend/platform prep | [11-role-specific/greyorange.md](11-role-specific/greyorange.md) |
 
 ---
 

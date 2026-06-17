@@ -27,6 +27,7 @@ Prepare for Golang backend and senior software engineer interviews by covering:
 High-signal revision checklist:
 
 - [DSA + system design most asked](dsa-system-design-most-asked.md)
+- [GreyOrange backend/platform prep](11-role-specific/greyorange.md)
 
 For 5 YOE Go backend roles, do not treat DSA as the whole interview. The practical priority is:
 
@@ -410,6 +411,32 @@ Interview line:
 
 ---
 
+## Phase 12 - Role-Specific Prep
+
+Use these notes when an interview is tied to a specific company or role.
+
+Read:
+
+- [GreyOrange backend/platform prep](11-role-specific/greyorange.md)
+
+GreyOrange focus:
+
+```text
+Go concurrency
+Kafka/event-driven systems
+Redis caching and rate limiting
+MongoDB vs PostgreSQL
+microservices reliability
+Docker/Kubernetes basics
+task assignment/orchestration system design
+```
+
+Best positioning:
+
+> Backend engineer for distributed, event-driven, cloud-native orchestration systems.
+
+---
+
 ## 7-Day Revision Plan
 
 ### Day 1
@@ -459,6 +486,7 @@ Interview line:
 - resume/project storytelling
 - MAI Labs gap drills
 - Node.js streams/libuv quick revision
+- role-specific prep note if an interview is scheduled
 
 ---
 
