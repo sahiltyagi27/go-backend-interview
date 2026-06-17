@@ -206,6 +206,33 @@ For Go roles, the closer answer is:
 
 > Goroutines are multiplexed by the Go scheduler over OS threads. Blocking operations can park goroutines. For concurrency control, we use channels, mutexes, context cancellation, WaitGroups, and worker pools.
 
+## Node.js Streaming / Multiple Requests
+
+Question:
+
+> Write a function that can perform streaming for multiple requests or data sources using Node.js/libuv.
+
+Good answer:
+
+> For streaming multiple requests in Node.js, I would use streams so data is processed chunk by chunk. For each request, I can create a readable stream from the source and pipe it to a writable destination using `pipeline`. This avoids loading the full payload into memory. Since Node.js uses non-blocking I/O through libuv, multiple streams can progress concurrently while the event loop schedules callbacks. I would also handle backpressure and errors properly using `stream.pipeline`.
+
+Expected concepts:
+
+```text
+fs.createReadStream()
+fs.createWriteStream()
+stream.pipeline()
+Transform streams
+backpressure
+Promise.all for multiple independent streams
+```
+
+Important:
+
+> Streams are for I/O concurrency and memory efficiency, not CPU parallelism.
+
+If CPU-heavy processing is needed inside the stream, use `worker_threads` or a separate worker service because CPU-heavy work can block the event loop.
+
 ## Message Queue Vs Redis Pub/Sub
 
 Question:

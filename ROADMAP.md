@@ -22,6 +22,7 @@ Prepare for Golang backend and senior software engineer interviews by covering:
 - system design cases
 - data structures and algorithms
 - senior engineer skills
+- live coding drills from real interview gaps
 
 High-signal revision checklist:
 
@@ -71,8 +72,10 @@ Must know:
 Read:
 
 - [go-concurrency-demo repo](../go-concurrency-demo/README.md)
+- [Go concurrency decision guide](../go-concurrency-demo/DECISION_GUIDE.md)
 - [ping-pong with channels](02-go-concurrency/channels-ping-pong.md)
 - [graceful shutdown](02-go-concurrency/graceful-shutdown.md)
+- [worker pool live coding drill](../backend-live-coding-practice/go/worker-pool/README.md)
 
 Must know:
 
@@ -86,6 +89,10 @@ Must know:
 - worker pool
 - fan-in and fan-out
 - mutex vs channels
+- when to use goroutine without channel
+- when to use channel vs WaitGroup
+- where not to use WaitGroup
+- anonymous goroutine vs named goroutine function
 - race conditions
 - goroutine leaks
 - graceful shutdown
@@ -101,6 +108,10 @@ cd "/Users/sahiltyagi/Desktop/personal projects/go-concurrency-demo"
 go run .
 go run . -timeout
 go run -race . -race-demo
+
+cd "/Users/sahiltyagi/Desktop/personal projects/backend-live-coding-practice"
+go run ./go/worker-pool
+go test ./...
 ```
 
 ---
@@ -111,6 +122,7 @@ Read:
 
 - [REST, JWT, pagination](03-backend-api/rest-jwt-pagination.md)
 - [idempotency, rate limiting, upload](03-backend-api/idempotency-rate-limit-upload.md)
+- [rate limiter live coding drill](../backend-live-coding-practice/go/rate-limiter/README.md)
 
 Must know:
 
@@ -211,6 +223,8 @@ Must know:
 Read:
 
 - [production debugging and pprof](07-observability-production/debugging-pprof.md)
+- [distributed tracing live coding drill](../backend-live-coding-practice/go/tracing-context/README.md)
+- [backend interview reality check](backend-interview-reality-check.md)
 
 Must know:
 
@@ -219,6 +233,8 @@ Must know:
 - log levels
 - RED metrics
 - tracing
+- trace ID and span propagation
+- parent-child spans across services
 - production debugging checklist
 - recent deploy checks
 - dependency health checks
@@ -351,6 +367,49 @@ Must know:
 
 ---
 
+## Phase 11 - MAI Labs Interview Gap Drills
+
+This phase comes directly from the first interview debrief. It is the highest-priority live coding practice until these can be written from memory.
+
+Read:
+
+- [backend-live-coding-practice repo](../backend-live-coding-practice/README.md)
+- [Go worker pool with graceful shutdown](../backend-live-coding-practice/go/worker-pool/README.md)
+- [Go rate limiter middleware](../backend-live-coding-practice/go/rate-limiter/README.md)
+- [Distributed tracing context propagation](../backend-live-coding-practice/go/tracing-context/README.md)
+- [Node.js libuv concurrent tasks](../backend-live-coding-practice/node/libuv/README.md)
+- [Node.js streams and multiple requests](../backend-live-coding-practice/node/streams/README.md)
+- [Node.js worker_threads](../backend-live-coding-practice/node/worker-threads/README.md)
+
+Must practice:
+
+- write a worker pool without looking
+- add graceful shutdown with `context`
+- write a simple rate limiter middleware
+- explain trace ID, span ID, and parent span propagation
+- explain `Promise.all` for concurrent I/O
+- explain streams, `pipeline`, and backpressure
+- explain when CPU-heavy Node.js work needs `worker_threads`
+
+Run:
+
+```bash
+cd "/Users/sahiltyagi/Desktop/personal projects/backend-live-coding-practice"
+go test ./...
+go run ./go/worker-pool
+go run ./go/tracing-context
+node node/libuv/promise-all.js
+node node/libuv/threadpool-crypto.js
+node node/streams/multiple-streams.js
+node node/worker-threads/main.js
+```
+
+Interview line:
+
+> My next improvement area is converting backend concepts into clean live code. I am practicing worker pools, rate limiters, tracing propagation, Node.js async I/O, streams, and worker threads until I can implement them under time pressure.
+
+---
+
 ## 7-Day Revision Plan
 
 ### Day 1
@@ -365,12 +424,15 @@ Must know:
 - worker pools
 - context
 - graceful shutdown
+- concurrency decision guide
+- worker pool live coding drill
 
 ### Day 3
 
 - REST/JWT/idempotency
 - rate limiting
 - pagination
+- rate limiter live coding drill
 
 ### Day 4
 
@@ -395,6 +457,8 @@ Must know:
 - pprof
 - senior engineer skills
 - resume/project storytelling
+- MAI Labs gap drills
+- Node.js streams/libuv quick revision
 
 ---
 
@@ -406,7 +470,12 @@ You are ready when you can explain these without reading:
 - how slices share backing arrays
 - how to stop goroutines safely
 - how a worker pool works
+- when to use goroutine, channel, WaitGroup, context, mutex, and worker pool
+- when to use anonymous goroutine vs named goroutine function
 - how to design an idempotent API
+- how to implement a simple rate limiter middleware
+- how trace IDs and spans propagate across services
+- how Node.js streams avoid loading full data in memory
 - when to use cursor pagination
 - how SQL indexes work
 - how Redis cache-aside works

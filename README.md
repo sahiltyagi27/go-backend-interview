@@ -53,6 +53,7 @@ For the full step-by-step study path, read:
 | Docker, Kubernetes, CI/CD, GCP | [06-cloud-devops/docker-kubernetes-cicd-gcp.md](06-cloud-devops/docker-kubernetes-cicd-gcp.md) |
 | production debugging and pprof | [07-observability-production/debugging-pprof.md](07-observability-production/debugging-pprof.md) |
 | backend interview reality check | [backend-interview-reality-check.md](backend-interview-reality-check.md) |
+| Node.js event loop and streams | [backend-interview-reality-check.md](backend-interview-reality-check.md) |
 | DSA + system design most asked | [dsa-system-design-most-asked.md](dsa-system-design-most-asked.md) |
 | rate limiter design | [08-system-design-cases/rate-limiter.md](08-system-design-cases/rate-limiter.md) |
 | payment retry system | [08-system-design-cases/payment-retry-system.md](08-system-design-cases/payment-retry-system.md) |
