@@ -59,6 +59,159 @@ Prefer:
 I understand backend orchestration and distributed systems.
 ```
 
+## Interview Pattern From Shared Signals
+
+GreyOrange appears to be very backend + DSA + Kafka/project heavy.
+
+### Round 1
+
+Likely focus:
+
+```text
+Introduction
+Project discussion
+Framework basics
+Binary array sorting
+Min Stack using list/slice
+```
+
+Prepare:
+
+```text
+Tell me about yourself
+Explain Brevo or your strongest backend project
+Node.js / Go / framework basics
+Sort binary array
+Min Stack
+```
+
+### Round 2
+
+Likely focus:
+
+```text
+Detailed project discussion
+Kafka basics
+Driver matching in ride-sharing system
+Concurrency concepts
+Data structures
+N-ary tree message traversal problem
+```
+
+Prepare:
+
+```text
+Kafka producer/consumer/partition/offset/consumer group
+Retries and DLQ
+Go concurrency
+Worker pool
+HashMap / Queue / Heap basics
+Ride matching system
+Tree traversal / BFS
+```
+
+### Round 3
+
+Likely focus:
+
+```text
+Deep current project discussion
+Kafka retry handling
+Offset management
+Course Schedule / dependency ordering
+```
+
+Prepare:
+
+```text
+Kafka offset commit
+At-least-once processing
+Manual vs auto commit
+Retry topics / DLQ
+Idempotent consumers
+Course Schedule using graph + indegree + queue
+```
+
+Most important priorities:
+
+```text
+1. Project explanation
+2. Kafka basics + retry + offset management
+3. Go concurrency / worker pool
+4. Min Stack
+5. Sort binary array
+6. Course Schedule / topological sort
+7. N-ary tree BFS
+8. Ride-sharing driver matching design
+```
+
+## Mindset
+
+This is the correct realization:
+
+```text
+Go fundamentals are necessary, but interviews also test DSA, Kafka, concurrency implementation, system behavior and production judgment.
+```
+
+Do not translate that into:
+
+```text
+I do not know anything.
+```
+
+Translate it into:
+
+```text
+I know the basics now. The next phase is implementation and interview patterns.
+```
+
+Current strengths:
+
+```text
+Go basics
+Node basics
+backend experience
+Redis / Kafka / ClickHouse exposure
+microservices concepts
+production troubleshooting
+system design basics
+```
+
+Needs practice:
+
+```text
+writing code under pressure
+common DSA patterns
+Go concurrency implementation
+Kafka retry/offset answers
+system design structure
+deep project explanation
+```
+
+GreyOrange is not infinite. Treat it as five buckets:
+
+```text
+1. Project discussion
+2. Kafka
+3. DSA basics
+4. Go concurrency
+5. System/design thinking
+```
+
+The MAI interview was useful because it exposed similar weak areas:
+
+```text
+worker pool
+rate limiter
+Node streams/libuv
+tracing
+incident communication
+```
+
+Interview prep phase:
+
+> I know the basics. Now I am training implementation under pressure.
+
 ## Priority Prep Topics
 
 ### 1. Go Concurrency
@@ -93,10 +246,14 @@ Revise:
 - consumer groups
 - ordering guarantees
 - offsets
+- auto commit vs manual commit
+- at-least-once delivery
 - retries
 - DLQ
 - idempotent consumer
 - outbox pattern
+- rebalancing
+- ordering inside a partition
 
 Practice:
 
@@ -105,6 +262,10 @@ Practice:
 Interview line:
 
 > Kafka is useful when services need asynchronous communication, durability, replay, and independent scaling. I design consumers to be idempotent because duplicate delivery can happen.
+
+Offset management line:
+
+> I prefer committing offsets only after processing succeeds. If processing fails, I retry with backoff or send the message to a DLQ after max attempts. This gives at-least-once processing, so my consumer must be idempotent to safely handle duplicate messages.
 
 ### 3. Redis
 
@@ -199,6 +360,77 @@ Interview line:
 
 > I know the deployment basics: containerize service, configure environment through ConfigMaps/Secrets, expose through Service/Ingress, scale with replicas/HPA, and shut down gracefully on termination.
 
+### 7. Focused DSA
+
+Do not over-randomize DSA prep for this role. Focus on the patterns that have appeared in interview signals.
+
+Must revise:
+
+```text
+sort binary array
+Min Stack
+Course Schedule / topological sort
+N-ary tree BFS/DFS
+HashMap / Queue / Heap basics
+```
+
+Binary array sorting:
+
+```go
+func sortBinaryArray(arr []int) {
+    left := 0
+
+    for right := 0; right < len(arr); right++ {
+        if arr[right] == 0 {
+            arr[left], arr[right] = arr[right], arr[left]
+            left++
+        }
+    }
+}
+```
+
+Min Stack idea:
+
+```text
+main stack = all values
+min stack = current minimum at each level
+
+Push:
+push value to main stack
+push min(value, currentMin) to min stack
+
+Pop:
+pop from both stacks
+
+GetMin:
+top of min stack
+```
+
+Course Schedule idea:
+
+```text
+Build adjacency list.
+Build indegree array.
+Push indegree 0 courses into queue.
+Process queue.
+Reduce indegree of neighbors.
+If processed count == total courses, schedule is possible.
+```
+
+N-ary tree message traversal:
+
+```text
+Prepare BFS level-order traversal.
+Prepare DFS height/depth calculation.
+Clarify whether children can receive messages in parallel or one at a time.
+Clarify whether parent must receive before child.
+```
+
+Practice:
+
+- [algos repo](../../algos/README.md)
+- [data-structures repo](../../data%20structures/README.md)
+
 ## Likely Interview Questions
 
 ```text
@@ -216,6 +448,21 @@ How would you debug a production issue after deployment?
 What happens when a consumer crashes after processing but before committing offset?
 How would you prevent retry storms?
 How would you handle stale robot/worker state?
+Sort an array containing only 0 and 1.
+Implement Min Stack.
+Solve Course Schedule / dependency ordering.
+Traverse an N-ary tree for message passing.
+```
+
+## HR Call Questions To Ask
+
+```text
+Is the first round coding-heavy or mostly project discussion?
+Which language can I use for coding: Go?
+Is Kafka used heavily in the team?
+Is the role backend-only or full-stack?
+Is the team working closer to platform/orchestration or product APIs?
+What is the work model: hybrid or 5 days office?
 ```
 
 ## Strong System Design Case
@@ -311,18 +558,70 @@ Early HR answer:
 
 > I am flexible for the right backend/platform role, but based on my experience and the role expectations, I am looking in the 25-28 LPA range.
 
+## Focused 7-Day Plan
+
+Do not study randomly. Attack the recurring patterns.
+
+### Day 1
+
+- Go worker pool
+- graceful shutdown
+- goroutines, channels, WaitGroup, context
+
+### Day 2
+
+- Kafka basics
+- retry
+- offset management
+- DLQ
+- idempotent consumers
+
+### Day 3
+
+- Min Stack
+- binary array sort
+- stack / queue / hashmap revision
+
+### Day 4
+
+- Course Schedule / topological sort
+- tree BFS/DFS
+- N-ary tree traversal
+
+### Day 5
+
+- rate limiter
+- distributed tracing
+- backend failure handling
+
+### Day 6
+
+- project explanation
+- production scenarios
+- contribution/storytelling practice
+
+### Day 7
+
+- full mock
+- revise weak areas
+- repeat Kafka + concurrency answers out loud
+
 ## 2-Day Quick Prep Plan
 
 ### Day 1
 
 - Go worker pool with graceful shutdown
 - Kafka consumer group, partitions, retries, DLQ
+- Kafka offset management and idempotent consumer
 - Redis cache-aside and rate limiter
 - Microservices retries, timeouts, circuit breaker
 
 ### Day 2
 
 - Task assignment system design
+- Ride-sharing driver matching design
+- Binary array sort, Min Stack, Course Schedule
+- N-ary tree BFS/DFS
 - MongoDB vs PostgreSQL
 - Docker/Kubernetes basics
 - Production debugging story
