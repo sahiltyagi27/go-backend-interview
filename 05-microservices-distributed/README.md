@@ -85,12 +85,14 @@ Partial conceptual coverage exists in:
 
 ## Covered In This Folder
 
+- `kafka.md`
 - `kafka-dlq-outbox.md`
 - `retries-timeouts-circuit-breaker.md`
 - `../backend-interview-reality-check.md`
 
 These cover:
 
+- quick Kafka interview answers
 - Kafka topic/partition explanation
 - consumer groups
 - retry vs DLQ flow

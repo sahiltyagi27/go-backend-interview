@@ -175,6 +175,7 @@ Must know:
 
 Read:
 
+- [Kafka interview answers](05-microservices-distributed/kafka.md)
 - [Kafka, DLQ, outbox](05-microservices-distributed/kafka-dlq-outbox.md)
 - [retries, timeouts, circuit breaker](05-microservices-distributed/retries-timeouts-circuit-breaker.md)
 - [backend interview reality check](backend-interview-reality-check.md)

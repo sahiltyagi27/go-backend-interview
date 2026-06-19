@@ -257,6 +257,7 @@ Revise:
 
 Practice:
 
+- [Kafka interview answers](../05-microservices-distributed/kafka.md)
 - [Kafka, DLQ, outbox](../05-microservices-distributed/kafka-dlq-outbox.md)
 
 Interview line:

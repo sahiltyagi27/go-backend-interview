@@ -49,6 +49,7 @@ For the full step-by-step study path, read:
 | idempotency, rate limiting, upload | [03-backend-api/idempotency-rate-limit-upload.md](03-backend-api/idempotency-rate-limit-upload.md) |
 | SQL, indexes, transactions | [04-database-redis/sql-indexes-transactions.md](04-database-redis/sql-indexes-transactions.md) |
 | Redis and caching | [04-database-redis/redis-caching.md](04-database-redis/redis-caching.md) |
+| Kafka interview answers | [05-microservices-distributed/kafka.md](05-microservices-distributed/kafka.md) |
 | Kafka, DLQ, outbox | [05-microservices-distributed/kafka-dlq-outbox.md](05-microservices-distributed/kafka-dlq-outbox.md) |
 | retries, timeouts, circuit breaker | [05-microservices-distributed/retries-timeouts-circuit-breaker.md](05-microservices-distributed/retries-timeouts-circuit-breaker.md) |
 | Docker, Kubernetes, CI/CD, GCP | [06-cloud-devops/docker-kubernetes-cicd-gcp.md](06-cloud-devops/docker-kubernetes-cicd-gcp.md) |
