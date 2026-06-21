@@ -407,6 +407,10 @@ GetMin:
 top of min stack
 ```
 
+Implementation:
+
+- `/Users/sahiltyagi/Desktop/personal projects/data structures/structures/min_stack.go`
+
 Course Schedule idea:
 
 ```text

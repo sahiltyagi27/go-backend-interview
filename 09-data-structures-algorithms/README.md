@@ -14,6 +14,7 @@ Covered in:
 - arrays and slices
 - linked list
 - stack
+- min stack
 - queue
 - hash map
 - set
@@ -66,6 +67,11 @@ Course Schedule / topological sort:
 
 - `/Users/sahiltyagi/Desktop/personal projects/algos/patterns/topologicalsort/README.md`
 - `/Users/sahiltyagi/Desktop/personal projects/algos/patterns/topologicalsort/course_schedule.go`
+
+Min Stack:
+
+- `/Users/sahiltyagi/Desktop/personal projects/data structures/structures/min_stack.go`
+- `/Users/sahiltyagi/Desktop/personal projects/data structures/GUIDE.md`
 
 See `grid-dfs-surrounded-cities.md` for:
 

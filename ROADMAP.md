@@ -27,7 +27,9 @@ Prepare for Golang backend and senior software engineer interviews by covering:
 High-signal revision checklist:
 
 - [DSA + system design most asked](dsa-system-design-most-asked.md)
+- [common company prep strategy](11-role-specific/common-prep-strategy.md)
 - [GreyOrange backend/platform prep](11-role-specific/greyorange.md)
+- [MongoDB role prep](11-role-specific/mongodb.md)
 
 For 5 YOE Go backend roles, do not treat DSA as the whole interview. The practical priority is:
 
@@ -418,7 +420,9 @@ Use these notes when an interview is tied to a specific company or role.
 
 Read:
 
+- [common company prep strategy](11-role-specific/common-prep-strategy.md)
 - [GreyOrange backend/platform prep](11-role-specific/greyorange.md)
+- [MongoDB role prep](11-role-specific/mongodb.md)
 
 GreyOrange focus:
 
@@ -435,6 +439,17 @@ task assignment/orchestration system design
 Best positioning:
 
 > Backend engineer for distributed, event-driven, cloud-native orchestration systems.
+
+MongoDB focus:
+
+```text
+MongoDB indexes / explain()
+compound indexes
+replica set and sharding
+distributed systems
+Go concurrency
+cloud/data platform system design
+```
 
 ---
 
