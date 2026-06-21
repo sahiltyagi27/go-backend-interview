@@ -62,6 +62,11 @@ See `missing-patterns.md` for:
 - binary search on answer
 - LRU cache
 
+Course Schedule / topological sort:
+
+- `/Users/sahiltyagi/Desktop/personal projects/algos/patterns/topologicalsort/README.md`
+- `/Users/sahiltyagi/Desktop/personal projects/algos/patterns/topologicalsort/course_schedule.go`
+
 See `grid-dfs-surrounded-cities.md` for:
 
 - four-direction grid traversal

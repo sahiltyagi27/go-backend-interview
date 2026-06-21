@@ -418,6 +418,10 @@ Reduce indegree of neighbors.
 If processed count == total courses, schedule is possible.
 ```
 
+Detailed note:
+
+- `/Users/sahiltyagi/Desktop/personal projects/algos/patterns/topologicalsort/README.md`
+
 N-ary tree message traversal:
 
 ```text
