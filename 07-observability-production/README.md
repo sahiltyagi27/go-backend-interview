@@ -53,12 +53,19 @@ Partial coverage:
 ## Covered In This Folder
 
 - `debugging-pprof.md`
+- `distributed-tracing.md`
+- `incident-communication.md`
 
 This covers:
 
 - production incident debugging checklist
 - structured logging
 - RED metrics
-- trace propagation
+- distributed tracing vocabulary
+- trace ID/span ID
+- parent-child spans
+- OpenTelemetry
+- trace propagation through HTTP/gRPC/Kafka headers
+- incident communication for non-technical stakeholders
 - Go `pprof` CPU/memory/goroutine profiles
 - connection pool debugging

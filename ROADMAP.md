@@ -26,6 +26,8 @@ Prepare for Golang backend and senior software engineer interviews by covering:
 
 High-signal revision checklist:
 
+- [daily prep board](daily-board/today.md)
+- [interview readiness summary](interview-readiness-summary.md)
 - [DSA + system design most asked](dsa-system-design-most-asked.md)
 - [common company prep strategy](11-role-specific/common-prep-strategy.md)
 - [GreyOrange backend/platform prep](11-role-specific/greyorange.md)
@@ -227,6 +229,8 @@ Must know:
 Read:
 
 - [production debugging and pprof](07-observability-production/debugging-pprof.md)
+- [distributed tracing interview notes](07-observability-production/distributed-tracing.md)
+- [production incident communication](07-observability-production/incident-communication.md)
 - [distributed tracing live coding drill](../backend-live-coding-practice/go/tracing-context/README.md)
 - [backend interview reality check](backend-interview-reality-check.md)
 
@@ -240,6 +244,7 @@ Must know:
 - trace ID and span propagation
 - parent-child spans across services
 - production debugging checklist
+- incident communication: impact, status, mitigation, ETA, next update
 - recent deploy checks
 - dependency health checks
 - root cause analysis

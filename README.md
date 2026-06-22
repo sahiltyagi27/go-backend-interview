@@ -12,6 +12,8 @@ It does not replace the repos we already created. Instead, it acts as the master
 For the full step-by-step study path, read:
 
 - [ROADMAP.md](ROADMAP.md)
+- [daily-board/today.md](daily-board/today.md)
+- [interview-readiness-summary.md](interview-readiness-summary.md)
 - [backend-interview-reality-check.md](backend-interview-reality-check.md)
 - [dsa-system-design-most-asked.md](dsa-system-design-most-asked.md)
 
@@ -39,6 +41,10 @@ For the full step-by-step study path, read:
 
 | Topic | File |
 |---|---|
+| daily prep board | [daily-board/today.md](daily-board/today.md) |
+| Excel XP tracker | [daily-board/interview-fitness-xp-tracker.xlsx](daily-board/interview-fitness-xp-tracker.xlsx) |
+| daily prep history | [daily-board/history.md](daily-board/history.md) |
+| interview readiness summary | [interview-readiness-summary.md](interview-readiness-summary.md) |
 | defer, panic, recover | [01-go-fundamentals/defer-panic-recover.md](01-go-fundamentals/defer-panic-recover.md) |
 | interfaces, pointers, slices, maps | [01-go-fundamentals/interfaces-pointers-slices-maps.md](01-go-fundamentals/interfaces-pointers-slices-maps.md) |
 | error handling | [01-go-fundamentals/errors.md](01-go-fundamentals/errors.md) |
@@ -54,6 +60,8 @@ For the full step-by-step study path, read:
 | retries, timeouts, circuit breaker | [05-microservices-distributed/retries-timeouts-circuit-breaker.md](05-microservices-distributed/retries-timeouts-circuit-breaker.md) |
 | Docker, Kubernetes, CI/CD, GCP | [06-cloud-devops/docker-kubernetes-cicd-gcp.md](06-cloud-devops/docker-kubernetes-cicd-gcp.md) |
 | production debugging and pprof | [07-observability-production/debugging-pprof.md](07-observability-production/debugging-pprof.md) |
+| distributed tracing interview answer | [07-observability-production/distributed-tracing.md](07-observability-production/distributed-tracing.md) |
+| production incident communication | [07-observability-production/incident-communication.md](07-observability-production/incident-communication.md) |
 | backend interview reality check | [backend-interview-reality-check.md](backend-interview-reality-check.md) |
 | Node.js event loop and streams | [backend-interview-reality-check.md](backend-interview-reality-check.md) |
 | DSA + system design most asked | [dsa-system-design-most-asked.md](dsa-system-design-most-asked.md) |
