@@ -43,6 +43,17 @@ Covered in:
 
 ## Extra Practice Added
 
+See `vanilla-go-interview-code.md` for:
+
+- BFS and DFS with slices and maps
+- graph representation rules
+- Course Schedule / Kahn's algorithm
+- Min Stack
+- Valid Parentheses
+- Two Sum
+- Longest Substring
+- Binary Array Sort
+
 See `../dsa-system-design-most-asked.md` for:
 
 - LRU/LFU Cache

@@ -69,6 +69,7 @@ For the full step-by-step study path, read:
 | payment retry system | [08-system-design-cases/payment-retry-system.md](08-system-design-cases/payment-retry-system.md) |
 | analytics pipeline | [08-system-design-cases/analytics-pipeline.md](08-system-design-cases/analytics-pipeline.md) |
 | extra DSA patterns | [09-data-structures-algorithms/missing-patterns.md](09-data-structures-algorithms/missing-patterns.md) |
+| vanilla Go interview code | [09-data-structures-algorithms/vanilla-go-interview-code.md](09-data-structures-algorithms/vanilla-go-interview-code.md) |
 | grid DFS surrounded cities | [09-data-structures-algorithms/grid-dfs-surrounded-cities.md](09-data-structures-algorithms/grid-dfs-surrounded-cities.md) |
 | clean code, SOLID, design patterns | [10-senior-engineer-skills/clean-code-solid-patterns.md](10-senior-engineer-skills/clean-code-solid-patterns.md) |
 | testing strategy | [10-senior-engineer-skills/testing-strategy.md](10-senior-engineer-skills/testing-strategy.md) |

@@ -298,6 +298,7 @@ Read:
 - [data-structures repo](../data%20structures/README.md)
 - [algos repo](../algos/README.md)
 - [DSA + system design most asked](dsa-system-design-most-asked.md)
+- [vanilla Go interview code](09-data-structures-algorithms/vanilla-go-interview-code.md)
 - [extra DSA patterns](09-data-structures-algorithms/missing-patterns.md)
 - [grid DFS surrounded cities](09-data-structures-algorithms/grid-dfs-surrounded-cities.md)
 
