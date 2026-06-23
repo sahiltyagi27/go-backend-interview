@@ -151,3 +151,85 @@ No binge eating
 Milk at 11 PM
 Sleep by 11:30 PM
 ```
+
+---
+
+# 2026-06-23 - Course Schedule Consolidation Day
+
+XP:
+
+```text
+Career start:      4.9 / 10
+Career end:        5.25 / 10
+Career delta:      +0.35
+
+Fitness start:     7.8 / 10
+Fitness end:       8.2 / 10
+Fitness delta:     +0.4
+
+Emotional start:   5.0 / 10
+Emotional end:     5.25 / 10
+Emotional delta:   +0.25
+
+Attachment start:  4.75 / 10
+Attachment end:    4.9 / 10
+Attachment delta:  +0.15
+```
+
+Main focus:
+
+```text
+Retain BFS/DFS, make Course Schedule/Kahn's algo repeatable, revise Kafka aloud, and keep fitness strong.
+```
+
+Completed:
+
+```text
+BFS/DFS recalled and run on a graph.
+Course Schedule/Kahn's algo written correctly without looking.
+Kafka revision completed.
+Technical explanation improved.
+Fitness block completed with 14k steps, 2 whey, creatine, workout, good protein, and 3L hydration.
+```
+
+Skill changes:
+
+```text
+BFS Practice:                 5.5  -> 6.0
+DFS Practice:                 5.75 -> 6.25
+Graph Practice:               5.5  -> 5.8
+Graph Interview XP:           4.0  -> 4.25
+Course Schedule Practice:     4.5  -> 6.0
+Course Schedule Interview XP: 3.75 -> 4.75
+DSA Pattern Confidence:       5.0  -> 5.7
+Technical Communication:      4.25 -> 4.6
+Kafka Practice:               6.0  -> 6.25
+Kafka Interview XP:           5.0  -> 5.5
+Overall Interview Readiness:  4.9  -> 5.25
+
+Workout consistency:          6.0  -> 7.5
+Steps / movement:             6.0  -> 6.5
+Protein / diet control:       7.8  -> 8.5
+Hydration:                    7.5  -> 7.8
+Sleep discipline:             6.0  -> 6.0
+Overall fitness day:          7.8  -> 8.2
+
+Overall emotional health:     5.0  -> 5.25
+Overall attachment control:   4.75 -> 4.9
+Overall personal growth:      5.5  -> 6.0
+```
+
+Confidence note:
+
+```text
+The main achievement was not only writing Kahn's algo. The real win was doubting recall, challenging it, writing correct code, and rebuilding confidence.
+```
+
+Carry forward:
+
+```text
+Repeat Course Schedule once more without looking.
+Add Min Stack as an easy DSA confidence builder.
+Practice Kafka as spoken answers.
+Practice one project explanation using Problem -> Design -> Contribution -> Production issue -> Tradeoff -> Result.
+```
