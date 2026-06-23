@@ -1,472 +1,375 @@
-# Daily Board - 2026-06-22
+# Daily Board - 2026-06-23
 
 ## Theme
 
 ```text
-22 June - Comeback Day
+23 June - Course Schedule Gets Less Scary
 ```
 
-## Excel Tracker
+## Main Goal
 
-[interview-fitness-xp-tracker.xlsx](interview-fitness-xp-tracker.xlsx)
+```text
+BFS/DFS should move from "I did it once" -> "I can explain and write it again."
+Course Schedule should move from "I understand it" -> "I can code it with light help."
+```
 
 ## XP Dashboard
 
 ```text
-Overall Interview XP: 4.5 / 10 -> 5.2 / 10
-Overall Fitness XP:   5.5 / 10 -> 8.0 / 10
-Overall Emotional XP: 4.5 / 10 -> 5.0 / 10
-Attachment Growth XP: 4.5 / 10 -> 4.75 / 10
-Short-term Target:    7.0 / 10 interview readiness
-Medium-term Target:   8.0 / 10 interview readiness
+Overall Career XP:        4.9 / 10 -> 5.25 / 10
+Overall Fitness XP:       7.8 / 10 -> 8.2 / 10
+Overall Emotional XP:     5.0 / 10 -> 5.25 / 10
+Attachment Growth XP:     4.75 / 10 -> 4.9 / 10
+Overall Day Target:       7.4 / 10
 
-Today's XP Goal:      Career XP + Body XP + Emotional XP + Growth XP
-Streak:               0 days
-Energy:               Medium
-Confidence:           4 / 10 -> 6 / 10
+Today's XP Goal:          BFS/DFS recall + Course Schedule coding + Kafka speak revision
+Energy:                   TBD
+Confidence:               5.25 / 10 -> 5.75 / 10
 ```
 
 ## Career XP Dashboard
 
 | Skill | Current | Target |
 |---|---:|---:|
-| Interview mood / confidence | 5.25 / 10 | 6.0 / 10 |
-| Overall interview readiness | 4.9 / 10 | 5.2 / 10 |
-| Technical communication | 4.25 / 10 | 5.0 / 10 |
-| System design thinking | 4.0 / 10 | Maintain |
+| Overall Career XP / Interview Readiness | 4.9 / 10 | 5.25 / 10 |
+| DSA Pattern Confidence | 5.0 / 10 | 5.7 / 10 |
+| Technical Communication | 4.25 / 10 | 4.6 / 10 |
+| Mood / Confidence | 5.25 / 10 | 5.75 / 10 |
 
 ## Topic XP Split
 
-| Topic | Practice XP | Interview XP | Today's Target |
+| Topic | Current XP | Target XP | Today's Target |
 |---|---:|---:|---|
-| Go concurrency | 5.0 / 10 | 4.0 / 10 | Maintain |
-| Worker pool | 6.0 / 10 | 4.5 / 10 | Maintain |
-| Rate limiter | 6.0 / 10 | 5.0 / 10 | Maintain |
-| DSA overall | 5.0 / 10 | 3.5 / 10 | Strong recovery |
-| Graph basics | 5.5 / 10 | 4.0 / 10 | Strong recovery |
-| BFS | 5.5 / 10 | 4.0 / 10 | Practiced |
-| DFS | 5.75 / 10 | 4.0 / 10 | Practiced |
-| Course Schedule / Kahn's algo | 4.5 / 10 | 3.75 / 10 | Needs repetition |
-| Min Stack | 3.0 / 10 | 3.0 / 10 | +Practice, +Interview |
-| Kafka | 6.0 / 10 | 5.0 / 10 | +Interview |
-| MongoDB | 3.0 / 10 | 2.5 / 10 | Maintain |
-| Distributed tracing | 3.0 / 10 | 2.5 / 10 | Maintain |
-| Incident communication | 3.5 / 10 | 3.0 / 10 | Maintain |
-| Node.js | 2.5 / 10 | 2.0 / 10 | Maintain |
-
-## Fitness XP Targets
-
-| Fitness Area | Start | Target |
-|---|---:|---:|
-| Workout consistency | 6.0 / 10 | 7.2 / 10 |
-| Steps / movement | 5.5 / 10 | 6.0 / 10 |
-| Protein / diet control | 6.0 / 10 | 7.8 / 10 |
-| Hydration | 6.0 / 10 | 7.5 / 10 |
-| Sleep discipline | 4.5 / 10 | 6.5 / 10 |
-| Overall fitness day | 5.5 / 10 | 8.0 / 10 |
-
-## Emotional Health XP
-
-| Emotional Area | Start | Today |
-|---|---:|---:|
-| Mood stability | 5.0 / 10 | 5.5 / 10 |
-| Rejection handling | 4.0 / 10 | 4.75 / 10 |
-| Overthinking control | 4.0 / 10 | 4.5 / 10 |
-| Self-respect | 5.0 / 10 | 5.5 / 10 |
-| Emotional recovery speed | 4.5 / 10 | 5.25 / 10 |
-| Overall emotional health | 4.5 / 10 | 5.0 / 10 |
-
-## Attachment / Personal Growth XP
-
-| Growth Area | Start | Today |
-|---|---:|---:|
-| External validation control | 4.0 / 10 | 4.25 / 10 |
-| Boundary discipline | 6.0 / 10 | 6.0 / 10 |
-| Fantasy / rumination control | 4.0 / 10 | 4.25 / 10 |
-| Trigger response control | 4.5 / 10 | 4.75 / 10 |
-| Letting go ability | 4.5 / 10 | 4.75 / 10 |
-| Overall attachment control | 4.5 / 10 | 4.75 / 10 |
+| BFS Practice | 5.5 / 10 | 6.0 / 10 | Revised / retained |
+| DFS Practice | 5.75 / 10 | 6.25 / 10 | Revised / retained |
+| Graph Practice | 5.5 / 10 | 5.8 / 10 | Stronger base |
+| Graph Interview | 4.0 / 10 | 4.25 / 10 | Improving explanation |
+| Course Schedule Practice | 4.5 / 10 | 6.0 / 10 | Major jump |
+| Course Schedule Interview | 3.75 / 10 | 4.75 / 10 | Blind code + explanation |
+| Kafka Practice | 6.0 / 10 | 6.25 / 10 | Revised |
+| Kafka Interview | 5.0 / 10 | 5.5 / 10 | Spoken revision |
 
 ## Board Rule
 
 ```text
 No random LeetCode.
-No MAI overthinking.
-Only pattern practice.
-Farm XP.
-Career XP + Body XP.
-Emotional XP counts too.
-Attachment / personal growth XP counts too.
-Honest XP, not cruel XP.
+No new graph video.
+No custom queue/stack.
+No hard graph problems today.
+No MAI replay.
+Make Course Schedule less scary.
 ```
 
 ## Daily Scorecard
 
 | Area | Target | Done |
 |---|---:|---:|
-| Coding drill | 3 | 0 |
-| Concept revision | 4 | 0 |
-| Spoken explanation | 5 | 2 |
-| Project / production answer | 2 | 0 |
-| Rest blocks respected | 5 | 0 |
-| Fitness blocks respected | 4 | 4 |
+| BFS/DFS recall | 1 | 1 |
+| Course Schedule manual trace | 1 | 1 |
+| Course Schedule coding | 1 | 1 |
+| Kafka spoken revision | 1 | 1 |
+| Night light revision | 1 | 0 |
+| Fitness block | 1 | 1 |
 
-## Fitness Rules Today
+## Morning Block - 9:30 AM to 11:00 AM
 
-Hydration:
-
-- [x] 2.5-3L water total.
-- [x] Extra water if walking/workout.
-- [x] Electral/ORS used because hydration support was useful.
-
-Food:
-
-- [x] Keep protein strong.
-- [x] No binge eating.
-- [x] Milk before sleep completed at 11 PM.
-
-Workout:
-
-- [x] 7:00-8:30 PM normal workout.
-- [x] No ego lifting.
-- [x] Focus on consistency and form.
+### Quest 1: BFS + DFS Recall
 
 Steps:
 
-- [x] Target 8k-10k if weather allows.
-- [x] 11,500 steps completed.
-- [x] Indoor walking is okay.
-- [x] Did not force outdoor walking in heat.
+1. Open blank Go file.
+2. Write graph creation using `[][]int`.
+3. Write BFS without looking.
+4. Write DFS without looking.
+5. Run both on a small graph.
 
-Sleep:
+Example graph:
 
-- [x] 11-11:30 PM target.
-- [x] Sleep by 11:30 PM.
-- [x] No heavy screen after 10:30.
-
-## Schedule
-
-### 12:00-12:15 - Reset + Setup
-
-What:
-
-- [x] Reply to MAI HR.
-- [ ] Drink water.
-- [ ] Open VS Code.
-- [ ] Start fresh.
-
-How:
-
-```text
-Send polite closing reply.
-Do not reread feedback again.
-Keep phone away after reply.
-Open one Go file for graph practice.
+```go
+graph := [][]int{
+	{1, 2},
+	{3},
+	{3},
+	{},
+}
 ```
 
-### 12:15-1:00 - Graph Basics: BFS + DFS
-
-What:
-
-- [ ] Graph representation.
-- [ ] BFS code once.
-- [ ] DFS code once.
-
-How:
+Explain aloud:
 
 ```text
-1. Create graph:
-   graph := make([][]int, n)
-
-2. Add edges:
-   graph[u] = append(graph[u], v)
-
-3. BFS:
-   - Use queue
-   - Mark visited when pushing
-   - Pop from front
-   - Visit neighbours
-
-4. DFS:
-   - Use recursion
-   - Mark visited
-   - Recursively visit unvisited neighbours
+BFS uses a queue and explores level by level.
+DFS uses recursion or stack and explores deep before backtracking.
+Visited prevents cycles and repeated processing.
 ```
 
-Say aloud:
-
-> BFS uses queue and goes level by level. DFS uses recursion or stack and goes deep before backtracking.
-
-### 1:00-2:00 - Lunch + Rest
-
-What:
-
-- [ ] Eat.
-- [ ] Rest eyes.
-- [ ] No job stress.
-
-How:
+XP target:
 
 ```text
-No LeetCode.
-No LinkedIn scrolling.
-No MAI replay.
-Sit or lie down 20-30 min after lunch.
+BFS Practice XP:     5.5  -> 6.0
+DFS Practice XP:     5.75 -> 6.25
+Graph Interview XP:  4.0  -> 4.5
+DSA Confidence:      5.0  -> 5.25
 ```
 
-### 2:00-2:45 - Course Schedule: Kahn's Algo
-
-What:
-
-- [ ] Revise topological sort.
-- [ ] Code Course Schedule once.
-- [ ] Explain aloud once.
-
-How:
+Avoid:
 
 ```text
-1. Build graph:
-   prereq -> course
-
-2. Build indegree:
-   indegree[course]++
-
-3. Add all indegree 0 courses to queue.
-
-4. Process queue:
-   - Pop course
-   - processed++
-   - For each next course:
-     indegree[next]--
-     If indegree[next] == 0, push to queue
-
-5. Return:
-   processed == numCourses
+Do not watch a new graph video.
+Do not add custom queue/stack.
+Do not move to hard graph problems.
 ```
 
-Say aloud:
+## Late Morning Block - 11:15 AM to 12:30 PM
 
-> This is dependency resolution. If all nodes are processed, no cycle. If not, a cycle exists.
+### Quest 2: Course Schedule Manual Trace
 
-### 2:45-3:00 - Break
-
-How:
+Use this exact example:
 
 ```text
-Leave desk.
-Drink water.
-Look far away / rest eyes.
-No phone scrolling.
+numCourses = 4
+prerequisites = [[1,0], [2,0], [3,1], [3,2]]
 ```
 
-### 3:00-3:45 - Min Stack
-
-What:
-
-- [ ] Learn two-stack approach.
-- [ ] Code once.
-- [ ] Explain aloud once.
-
-How:
+Write manually:
 
 ```text
-1. mainStack stores all values.
-2. minStack stores current minimum at every level.
-
-Push:
-- Push value to mainStack.
-- Push min(value, currentMin) to minStack.
-
-Pop:
-- Pop from both stacks.
-
-Top:
-- Return top of mainStack.
-
-GetMin:
-- Return top of minStack.
+0 -> 1
+0 -> 2
+1 -> 3
+2 -> 3
 ```
 
-Say aloud:
-
-> Min Stack uses an auxiliary stack so getMin is O(1).
-
-### 3:45-4:15 - Break / Walk / Eye Rest
-
-How:
+Indegree:
 
 ```text
-Walk inside home.
-Stretch neck/shoulders.
-No coding.
-No job applications.
+0 = 0
+1 = 1
+2 = 1
+3 = 2
 ```
 
-### 4:15-5:00 - Kafka Revision
-
-What:
-
-- [ ] Topic / partition / consumer group.
-- [ ] Offset.
-- [ ] Retry.
-- [ ] DLQ.
-- [ ] Idempotency.
-
-How:
-
-Write and speak these answers:
+Queue:
 
 ```text
-1. Kafka basics:
-Producer writes to topic. Topic has partitions. Consumers read from partitions. Consumer groups divide partitions among consumers.
-
-2. Offset:
-Offset is the position of a message inside a partition.
-
-3. Commit:
-I commit offset only after successful processing.
-
-4. Retry:
-If processing fails, retry with backoff.
-
-5. DLQ:
-After max retries, send to DLQ and then commit original offset.
-
-6. Idempotency:
-At-least-once delivery can create duplicates, so consumers should be idempotent using event IDs or unique constraints.
+[0] -> [1,2] -> [2] -> [3] -> []
 ```
 
-### 5:00-5:30 - Technical Communication
-
-What:
-
-- [ ] Explain one project aloud.
-- [ ] Explain one incident answer.
-- [ ] Practice senior structure.
-
-How:
-
-Use this structure every time:
+Processed:
 
 ```text
-Problem -> Approach -> Tradeoff -> Production concern
+4 courses processed -> true
 ```
 
-Project explanation:
+XP target:
 
 ```text
-1. What was the project?
-2. What problem did it solve?
-3. What was your role?
-4. What tech stack?
-5. What was difficult?
-6. What was the impact?
+Course Schedule Practice XP:   4.5  -> 5.0
+Course Schedule Interview XP:  3.75 -> 4.0
 ```
 
-Incident answer:
+## Lunch / Rest - 12:30 PM to 2:00 PM
 
-```text
-1. Stop bleeding: rollback/disable feature.
-2. Assess impact.
-3. Communicate status.
-4. Give ETA/workaround.
-5. Share RCA later.
-6. Add prevention.
-```
-
-### 5:30-6:30 - Rest
-
-How:
-
-```text
-No guilt.
-No MAI thoughts.
-Relax properly.
-```
-
-### 7:00-8:30 - Workout
-
-How:
-
-```text
-Normal workout.
-No ego lifting.
-Focus on consistency + form.
-Do not overdo if mentally tired.
-Focus on consistency, not PR.
-```
-
-Completed:
-
-```text
-Chin-ups: 10, 8, 8, 6
-Core + glute circuit
-Shower completed
-11,500 steps total
-```
-
-### 8:30-9:15 - Dinner / Shower
-
-How:
+Rules:
 
 ```text
 Eat properly.
-No interview stress during dinner.
+No job panic.
+No MAI replay.
+No LinkedIn doom scrolling.
+Light walk if possible.
 ```
 
-### 9:15-9:45 - Light Revision Only
+## Afternoon Block - 2:00 PM to 3:30 PM
 
-What:
+### Quest 3: Course Schedule Code While Looking
 
-- [ ] BFS vs DFS.
-- [ ] Kahn's algo.
-- [ ] Kafka offset/DLQ.
-- [ ] Min Stack.
+Write full solution once while looking at notes.
 
-How:
+Core structure:
+
+```go
+func canFinish(numCourses int, prerequisites [][]int) bool {
+	graph := make([][]int, numCourses)
+	indegree := make([]int, numCourses)
+
+	for _, pre := range prerequisites {
+		course := pre[0]
+		prereq := pre[1]
+
+		graph[prereq] = append(graph[prereq], course)
+		indegree[course]++
+	}
+
+	queue := []int{}
+
+	for i := 0; i < numCourses; i++ {
+		if indegree[i] == 0 {
+			queue = append(queue, i)
+		}
+	}
+
+	processed := 0
+
+	for len(queue) > 0 {
+		course := queue[0]
+		queue = queue[1:]
+		processed++
+
+		for _, next := range graph[course] {
+			indegree[next]--
+
+			if indegree[next] == 0 {
+				queue = append(queue, next)
+			}
+		}
+	}
+
+	return processed == numCourses
+}
+```
+
+Then explain:
 
 ```text
-No coding.
-Only read notes and speak answers aloud.
+I build graph from prerequisite to course.
+I count indegree as number of pending prerequisites.
+Courses with zero indegree can be taken first.
+Then I process them using queue and reduce indegree of dependent courses.
+If all courses are processed, no cycle exists.
+Otherwise, cycle exists.
 ```
 
-Say:
+XP target:
+
+```text
+Course Schedule Practice XP:   5.0 -> 5.5
+Course Schedule Interview XP:  4.0 -> 4.5
+Overall Career XP:             4.9 -> 5.1
+```
+
+## Break - 3:30 PM to 4:15 PM
+
+```text
+Tea / water / family / rest.
+No new topic.
+```
+
+## Evening Career Block - 4:15 PM to 5:15 PM
+
+### Quest 4: Kafka Revision
+
+Only speak, no deep notes.
+
+Answer these:
+
+1. What is Kafka?
+2. What is topic vs partition?
+3. What is consumer group?
+4. What is offset?
+5. When should offset be committed?
+6. What happens on failure?
+7. Why DLQ?
+8. Why idempotency?
+
+XP target:
+
+```text
+Kafka Practice XP:        6.0  -> 6.25
+Kafka Interview XP:       5.0  -> 5.5
+Technical Communication:  4.25 -> 4.5
+```
+
+## Fitness Block - 7:00 PM to 8:15 PM
+
+Warm-up:
+
+- [x] 5-8 minutes.
+
+Push:
+
+- [x] Push-ups: 4 sets.
+- [x] Dips: 3-4 sets.
+
+Legs:
+
+- [x] Sumo squats: 4 sets.
+- [x] Lunges: 2 sets each leg.
+
+Glutes:
+
+- [x] Hip bridge: 3 sets.
+
+Grip / Shoulders:
+
+- [x] Dead hang: 2 rounds.
+
+Mobility:
+
+- [x] Hip flexor stretch.
+- [x] Cat-cow.
+- [x] Child's pose.
+- [x] Cobra.
+- [x] 8-10 minutes total.
+
+## Fitness XP Targets
+
+```text
+Workout consistency:      maintain strong day
+Steps / movement:         14k steps completed
+Protein / diet control:   strong protein, 2 whey
+Hydration:                3L hydration
+Sleep discipline:         6.0 / 10 because Portugal match
+Overall fitness day:      8.2 / 10 final
+```
+
+## Night Block - 9:15 PM to 9:45 PM
+
+Light revision only.
+
+Say these once:
 
 ```text
 BFS = queue, level by level.
 DFS = recursion/stack, deep traversal.
-Kahn = indegree + queue.
-Kafka offset commit after success.
-Min Stack = main stack + min stack.
+Kahn = BFS with indegree.
+Indegree = pending prerequisites.
+Kafka offset should be committed after successful processing.
+DLQ stores failed messages after max retries.
 ```
 
-### 10:30-11:00 - Wind Down
-
-How:
+Then stop.
 
 ```text
-No LeetCode.
-No job portals.
-No MAI feedback reading.
-Sleep mode.
+No new problem after 10 PM.
 ```
 
-### 11:00 - Sleep Target
+## Tomorrow's Win Conditions
 
-- [ ] Sleep.
+Minimum win:
 
-## Current Done
+- [ ] BFS/DFS recall once.
+- [ ] Course Schedule trace once.
+- [ ] Course Schedule code once while looking.
+- [ ] Kafka speak revision.
+- [ ] 8k+ steps.
+- [ ] Decent protein.
 
-- [x] Added distributed tracing notes.
-- [x] Added incident communication notes.
-- [x] Added interview readiness summary.
-- [x] Created XP-based daily board.
+Strong win:
 
-## Carry Forward
+- [ ] Course Schedule coded with only light help.
+- [ ] Explained Kahn's algo aloud.
+- [ ] 10k+ steps.
+- [ ] Workout done.
+- [ ] Sleep around 11:30 PM.
 
-- [ ] Push current `go-backend-interview` notes when ready.
-- [ ] Brevo project explanation refinement.
-- [ ] MongoDB deeper prep later.
+## Final Target Score
+
+```text
+Career day target:      7.0 / 10
+Fitness day target:     7.5 / 10
+Emotional target:       7.0 / 10
+Overall day target:     7.4 / 10
+```
 
 ## End Of Day Summary
 
@@ -475,147 +378,118 @@ Fitness XP logged.
 Career XP logged.
 Emotional Health XP logged.
 Attachment / Personal Growth XP logged.
-Strong recovery day after MAI closure.
-Converted graph basics from unknown enemy into needs repetition.
-Handled layoff anxiety, MAI rejection pressure, and unemployment thoughts without spiraling.
-Workout completed with chin-ups, core and glute circuit.
-11,500 steps completed.
-Protein and hydration were strong.
-No binge eating.
-Milk completed at 11 PM.
-Sleep target completed by 11:30 PM.
-```
-
-## Fitness Notes
-
-```text
-2 scoops whey
-5g creatine
-11,500 steps
-Chin-ups: 10, 8, 8, 6
-Core + glute circuit
-Shower completed
-Good protein distribution through the day
-Hunger significantly better controlled than Sunday
-No binge eating
-```
-
-## Food Highlights
-
-```text
-Whey + milk + banana breakfast
-Moong dal + besan chilla + paneer + buttermilk
-2 roti + mix veg + curd
-Mango
-Small Father's Day cake portion, 3 spoons
-Whey + creatine
-Protein bread + bhaji + buttermilk
-ORS + good hydration
+Personal Growth XP logged.
+Very strong fitness day: 2 whey, creatine, 14k steps, workout, good protein, and 3L hydration.
+Strong consolidation day.
+BFS/DFS were revised and retained.
+Course Schedule moved from scary to repeatable.
+Wrote Kahn's algo correctly without looking.
+Kafka revised.
+Technical explanation improved.
+The real win: doubted recall, challenged it, wrote correct code, and rebuilt confidence.
 ```
 
 ## XP Change Today
 
 ```text
 Career XP:
-Start: 4.5 / 10
-End:   4.9 / 10
-Delta: +0.4
+Start: 4.9 / 10
+End:   5.25 / 10
+Delta: +0.35
 
 Career skill changes:
-Mood / confidence:           4.0 -> 5.25
-Overall interview readiness: 4.5 -> 4.9
-System design thinking:      4.0 -> TBD
-Technical communication:     4.0 -> 4.25
-
-Topic XP split changes:
-Go concurrency:              practice 5.0 -> TBD, interview 4.0 -> TBD
-Worker pool:                 practice 6.0 -> TBD, interview 4.5 -> TBD
-Rate limiter:                practice 6.0 -> TBD, interview 5.0 -> TBD
-DSA overall:                 practice 4.0 -> 5.0, interview 3.5 -> 4.0
-Graph basics:                practice 3.0 -> 5.5, interview 3.0 -> 4.0
-BFS:                         practice 3.0 -> 5.5, interview 3.0 -> 4.0
-DFS:                         practice 3.0 -> 5.75, interview 3.0 -> 4.0
-Course Schedule / Kahn:      practice 4.0 -> 4.5, interview 3.5 -> 3.75
-Min Stack:                   practice 3.0 -> TBD, interview 3.0 -> TBD
-Kafka:                       practice 6.0 -> TBD, interview 5.0 -> TBD
-MongoDB:                     practice 3.0 -> TBD, interview 2.5 -> TBD
-Distributed tracing:         practice 3.0 -> TBD, interview 2.5 -> TBD
-Incident communication:      practice 3.5 -> TBD, interview 3.0 -> TBD
-Node.js:                     practice 2.5 -> TBD, interview 2.0 -> TBD
+BFS Practice:                 5.5  -> 6.0
+DFS Practice:                 5.75 -> 6.25
+Graph Practice:               5.5  -> 5.8
+Graph Interview XP:           4.0  -> 4.25
+Course Schedule Practice:     4.5  -> 6.0
+Course Schedule Interview XP: 3.75 -> 4.75
+DSA Pattern Confidence:       5.0  -> 5.7
+Technical Communication:      4.25 -> 4.6
+Kafka Practice:               6.0  -> 6.25
+Kafka Interview XP:           5.0  -> 5.5
+Overall Interview Readiness:  4.9  -> 5.25
 
 Career result:
-Strong recovery day. Graph basics are no longer an unknown enemy; they now need repetition.
+Strong consolidation day. Course Schedule moved from "I understand it" to "I can write the solution from memory."
 
 Fitness XP:
-Start: 5.5 / 10
-End:   8.0 / 10
-Delta: +2.5
+Start: 7.8 / 10
+End:   8.2 / 10
+Delta: +0.4
 
 Fitness skill changes:
-Workout consistency:         6.0 -> 7.2
-Steps / movement:            5.5 -> 6.0
-Protein / diet control:      6.0 -> 7.8
-Hydration:                   6.0 -> 7.5
-Sleep discipline:            4.5 -> 6.5
-Overall fitness day:         5.5 -> 8.0
+Workout consistency:     6.0 -> 7.5
+Steps / movement:        6.0 -> 6.5
+Protein / diet control:  7.8 -> 8.5
+Hydration:               7.5 -> 7.8
+Sleep discipline:        6.0 -> 6.0
+Overall fitness day:     7.8 -> 8.2
 
-Upgrade completed:
-Milk done at 11 PM and sleep by 11:30 PM.
+Fitness notes:
+2 whey, creatine, 14k steps, workout, good protein, 3L hydration.
+Sleep stayed flat because of Portugal match.
 
-Emotional Health XP:
-Start: 4.5 / 10
-End:   5.0 / 10
-Delta: +0.5
-
-Emotional skill changes:
-Mood stability:               5.0 -> 5.5
-Rejection handling:           4.0 -> 4.75
-Overthinking control:         4.0 -> 4.5
-Self-respect:                 5.0 -> 5.5
-Emotional recovery speed:     4.5 -> 5.25
-Overall emotional health:     4.5 -> 5.0
-
-Emotional result:
-Big recovery. Layoff anxiety + MAI rejection pressure + one-month unemployment thought were present, but study, workout, food, and sleep still happened.
-
-Attachment / Personal Growth XP:
-Start: 4.5 / 10
-End:   4.75 / 10
+Emotional XP:
+Start: 5.0 / 10
+End:   5.25 / 10
 Delta: +0.25
 
-Attachment / personal growth skill changes:
-External validation control:  4.0 -> 4.25
-Boundary discipline:          6.0 -> 6.0
-Fantasy / rumination control: 4.0 -> 4.25
-Trigger response control:     4.5 -> 4.75
-Letting go ability:           4.5 -> 4.75
-Overall attachment control:   4.5 -> 4.75
+Emotional skill changes:
+Mood stability:           5.5  -> 5.75
+Rejection handling:       4.75 -> 5.0
+Overthinking control:     4.5  -> 4.75
+Self-respect:             5.5  -> 5.75
+Emotional recovery speed: 5.25 -> 5.5
+Overall emotional health: 5.0  -> 5.25
 
-Growth result:
-No major attachment trigger reported today. XP gain comes from discipline, redirection into real life, study, workout, and not spiraling.
+Emotional result:
+Doubt was redirected into action. That created self-trust XP.
+
+Attachment / Growth XP:
+Start: 4.75 / 10
+End:   4.9 / 10
+Delta: +0.15
+
+Attachment / personal growth skill changes:
+External validation control:  4.25 -> 4.4
+Boundary discipline:          6.0  -> 6.0
+Fantasy / rumination control: 4.25 -> 4.4
+Trigger response control:     4.75 -> 4.9
+Letting go ability:           4.75 -> 4.9
+Overall attachment control:   4.75 -> 4.9
+
+Personal Growth XP:
+Discipline:               5.5 -> 6.2
+Self-awareness:           7.0 -> 7.2
+Confidence rebuilding:    4.5 -> 5.25
+Action over overthinking: 5.0 -> 5.75
+Handling discomfort:      4.5 -> 5.25
+Overall personal growth:  5.5 -> 6.0
+
+Non-fitness day scores:
+Career day score:          7.5 / 10
+Emotional health score:    7.0 / 10
+Personal growth score:     7.5 / 10
+Attachment control score:  6.5 / 10
 ```
 
 ## XP Drop Check
 
 ```text
+Did any skill get rusty, avoided, or fail recall today?
+
 No drop for planned rest.
 No drop for one emotionally hard day if one useful action happened.
 
-Drops only apply for:
-- neglect
-- failed recall
-- random panic learning
-- repeated skipped fitness basics
+Drops:
+-0.25 = minor rust / distracted prep
+-0.50 = failed recall or skipped important planned task
+-1.00 = blank on previously known topic / repeated neglect
 ```
 
-## What Felt Weak
+## Main Line
 
 ```text
-Fill this after practice.
-```
-
-## Tomorrow's First Task
-
-```text
-Pick one task before ending the day.
+Don't chase 10 topics. Make Course Schedule less scary.
 ```
