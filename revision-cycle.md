@@ -181,3 +181,60 @@ Old revision:
 Spoken interview answer:
 Next spaced revision updates:
 ```
+
+## Lifestyle XP Add-On
+
+From July onward, daily EOD updates should include:
+
+```text
+Career XP
+Interview Prep XP
+Project Building XP
+Fitness XP
+Hydration / Diet XP
+Emotional Recovery XP
+Marriage / Family XP
+Stock Market XP
+PC Gaming XP
+Overall Day XP
+```
+
+Stock market and gaming are not automatically bad. They are judged by discipline and timing.
+
+Main rule:
+
+```text
+Stock market is wealth-building.
+Gaming is recovery.
+Neither should become escape mode.
+```
+
+Stock Market Slot:
+
+```text
+Time: 3:30 PM - 4:00 PM
+Limit: 20-30 minutes
+Allowed: portfolio check, dividend tracking, watchlist update, one company/news review
+Not allowed: random tips, panic buy/sell, intraday/revenge trading
+```
+
+PC Gaming Reward Slot:
+
+```text
+Time: 8:30 PM - 9:30 PM
+Limit: 45-75 minutes
+Allowed only after minimum win:
+- 10 jobs applied
+- SQL / DSA / Go minimum touched
+- project or prep block done
+- hydration decent
+
+Reward options:
+- FC 26: 1-2 matches
+- ETS2: 1 delivery / route
+
+Hard stop:
+- Normal day: 75 min max
+- Strong day: 90 min max
+- Weak day: 20-30 min recovery only
+```

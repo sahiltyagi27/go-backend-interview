@@ -1,347 +1,409 @@
-# Daily Board - 2026-06-30
+# Daily Board - 2026-07-01
 
 ## Theme
 
 ```text
-30 June - Apply + Prepare Mode
+Apply + Prepare + Build
 ```
 
-## Main Goal
+## Priority Order
 
 ```text
-No more only-preparation mode.
-We enter apply + prepare mode.
-```
-
-Job search needs two parallel tracks:
-
-1. Study to improve interview readiness.
-2. Apply daily to create opportunities.
-
-Readiness comes from:
-
-```text
-applications -> callbacks -> interviews -> gaps exposed -> revision -> better interviews
-```
-
-Not only from studying alone.
-
-## XP Dashboard
-
-```text
-Applications:             0 -> 10 completed
-SQL Basics:               2.75 -> 3.25
-Course Schedule:          skeleton recall
-Go Backend Recall:        4.5 -> 4.85
-Career Momentum:          5.6 -> 6.2
-Emotional Recovery:       5.8 -> 6.4
-Overall Day:              7.2 / 10
-
-Today's XP Goal:          apply + prepare
-Energy:                   salary-credit emotional day
-Confidence:               action beats waiting
+1. Job applications
+2. SQL + DSA + Go revision
+3. Project start
+4. Fitness / hydration
+5. Stock market
+6. Gaming reward
 ```
 
 ## Board Rule
 
 ```text
-No more only-preparation mode.
-Do not wait until fully ready to apply.
-Apply now, improve while pipeline builds.
+No tutorial rabbit hole.
+No waiting to feel ready.
+No AI-generated full project code.
+AI can guide, review, debug, and explain.
+My hands write the project code.
 ```
 
-## Application XP
-
-```text
-0 applications:   job pipeline stuck
-5 applications:   small movement
-10 applications:  daily minimum met
-20 applications:  strong job-search day
-30+ applications: aggressive comeback day
-```
-
-Daily minimum:
-
-```text
-Minimum applications/day: 10
-Good target:              20
-Strong day:               30+
-```
-
-## Application Buckets
-
-### Bucket 1 - High Match Jobs
-
-Apply carefully to:
-
-- Go Backend Engineer
-- Node.js Backend Engineer
-- Backend Engineer
-- Software Engineer - Backend
-- Platform Engineer
-- Infrastructure Engineer
+## 11:30 AM-12:30 PM - Job Applications
 
 Target:
 
 ```text
-5 strong applications/day
+Apply to 10 jobs minimum.
 ```
 
-### Bucket 2 - Service Company / Immediate Job Jobs
-
-Apply to:
-
-- LTI Mindtree
-- TCS
-- Infosys
-- Wipro
-- HCL
-- Coforge
-- Persistent
-- Nagarro
-- Globant
-- EPAM
-- Accenture
-- Capgemini
-- Cognizant
-- Tech Mahindra
-
-Target:
+Also update tracker:
 
 ```text
-5-10 applications/day
+Company
+Role
+Link/source
+Status
+Date applied
 ```
 
-### Bucket 3 - Remote / Startup / Backend Roles
-
-Apply to:
-
-- Go + Kafka
-- Node.js + PostgreSQL
-- Backend + Redis
-- Backend + MongoDB
-- Platform/internal tools
-
-Target:
+XP:
 
 ```text
-5 applications/day
+Job Application Rhythm +0.5
 ```
 
-## Daily Scorecard
+## 12:30-1:15 PM - SQL Revision
 
-| Area | Target | Done |
-|---|---:|---:|
-| Job applications | 10 | 10 |
-| SQL JOIN + VIEW | 1 | 1 |
-| Course Schedule skeleton | 1 | 0 |
-| Go backend 5-question recall | 1 | 1 |
-| Application tracker update | 1 | 0 |
-| Hydration / body reset | 1 | 1 |
-| Fitness block | 1 | 1 |
-
-## Job Search Block
-
-Time:
+Do:
 
 ```text
-30-45 min: search jobs
-30-45 min: apply
-15 min: update tracker
+INNER JOIN
+LEFT JOIN
+GROUP BY
+CREATE VIEW
 ```
-
-Non-negotiable:
-
-```text
-Apply to 10 jobs today.
-```
-
-## Study Block 1 - SQL JOIN + VIEW
 
 Goal:
 
 ```text
-Write one INNER JOIN query and one CREATE VIEW query without looking.
+Write one CREATE VIEW + INNER JOIN without looking.
+Write one GROUP BY query.
 ```
 
-Recall:
+Example target:
+
+```sql
+CREATE VIEW application_summary AS
+SELECT
+    c.name AS company_name,
+    j.role,
+    j.status,
+    j.applied_date
+FROM companies c
+INNER JOIN job_applications j
+ON c.id = j.company_id;
+```
+
+XP:
 
 ```text
-INNER JOIN = matching rows only.
-LEFT JOIN = all rows from left table, matching right rows if present.
-VIEW = saved reusable query.
+SQL Basics: 3.25 -> 3.75
 ```
 
-## Study Block 2 - Course Schedule Skeleton
-
-Write or speak the skeleton:
+## 1:15-2:00 PM - Lunch + Rest
 
 ```text
-graph := make([][]int, numCourses)
-indegree := make([]int, numCourses)
-build graph prereq -> course
-push indegree 0 courses to queue
-process queue
-reduce indegree of next courses
-return processed == numCourses
+Eat properly.
+Hydrate.
+No YouTube rabbit hole.
 ```
 
-## Study Block 3 - Go Backend 5-Question Recall
+## 2:00-2:40 PM - DSA Recall
 
-Speak aloud:
-
-1. What is a goroutine?
-2. What is a channel?
-3. What is `WaitGroup`?
-4. What is context cancellation?
-5. How would I design a worker pool?
-
-Memory line:
+Main problem:
 
 ```text
-Go backend is not lost. It only needs rhythm.
+Course Schedule
 ```
 
-## Fitness / Body Minimum
-
-Today is not punishment.
-
-- [x] Water / hydration strong.
-- [x] Protein decent.
-- [x] No binge.
-- [x] 15.5k steps.
-- [x] Smart heat-adjusted workout.
-
-Workout completed:
+Recall hook:
 
 ```text
-Warm-up with resistance band.
-Around 10 total unassisted chin-ups, mix of normal and wide grip.
-
-Conditioning/core, 2 rounds:
-- 20 jumping jacks
-- 20 high knees
-- 20 glute bridges
-- 10 leg raises
-- 10 leg crunches
-- 20 Russian twists
-- 40-second plank
-- 10 push-ups
-- 15 squats
+graph -> indegree -> zero queue -> process -> unlock -> count
 ```
-
-Fitness note:
-
-```text
-Biggest win: deliberately practiced unassisted chin-ups to rebuild the movement pattern.
-This was a smart heat-adjusted workout, not a missed heavy session.
-```
-
-## Win Conditions
 
 Minimum win:
 
-- [x] 10 applications.
-- [x] SQL JOIN + VIEW touched.
-- [ ] Course Schedule skeleton recalled.
-- [x] 5 Go backend questions spoken.
+```text
+Write skeleton.
+```
 
 Strong win:
 
-- [ ] 20 applications.
-- [ ] SQL JOIN + VIEW written without looking.
-- [ ] Course Schedule skeleton written.
-- [ ] Application tracker updated.
-- [ ] Fitness/body minimum done.
-
-## XP Change Today
-
 ```text
-Applications:
-Start: 0
-End:   10 jobs applied
-XP:    daily minimum met
-
-Job Pipeline Momentum:
-Start: stuck
-End:   moving
-
-Go Backend Confidence:
-Start: 4.5 / 10
-End:   4.85 / 10
-Delta: +0.35
-
-SQL Basics:
-Start: 2.75 / 10
-End:   3.25 / 10
-Delta: +0.5
-
-Career Momentum:
-Start: 5.6 / 10
-End:   6.2 / 10
-Delta: +0.6
-
-Emotional Recovery:
-Start: 5.8 / 10
-End:   6.4 / 10
-Delta: +0.6
-
-Fitness XP:
-Workout consistency:     6.8 -> 7.4
-Steps / movement:        6.5 -> 6.8, 15.5k steps
-Protein / diet control:  7.8 -> 7.6
-Hydration:               7.8 -> 8.2
-Sleep discipline:        6.0 -> pending
-Overall fitness day:     7.4 -> 8.1
-
-Fitness result:
-Strong 8+/10 fitness day. Unassisted chin-ups were the biggest win.
-
-Overall Day:
-End: 7.2 / 10
+Write full Go code without looking.
 ```
 
-## End Of Day Summary
+## 2:40-3:10 PM - Go Backend Recall
+
+Speak aloud:
 
 ```text
-Active restart day.
-Applied to 10 jobs.
-Practiced SQL.
-Revised Go backend.
-Fitness was strong with unassisted chin-ups and 15.5k steps.
-
-Biggest shift:
-No more only-preparation mode. Apply + prepare mode has started.
-
-Salary did not come today, but action did.
+1. Goroutine
+2. Channel
+3. WaitGroup
+4. Context cancellation
+5. Worker pool
 ```
 
-## 1 July Direction
+Minimum win:
 
 ```text
-1. Apply to 10 jobs minimum.
-2. SQL revision.
-3. DSA recall: Course Schedule or Min Stack.
-4. Start Job Application Tracker project requirements + DB schema.
+30 seconds answer each.
 ```
 
-Project rule:
+Strong win:
 
 ```text
-No heavy frontend tomorrow.
-Start the project properly.
+Write small worker pool skeleton.
 ```
 
-## XP Drop Check
+## 3:10-3:30 PM - Break
 
 ```text
-Studying without applying can become a comfort loop.
-0 applications means job pipeline stuck.
-10 applications means daily minimum met.
+Water.
+Walk around.
+Eyes rest.
+```
+
+## 3:30-4:00 PM - Stock Market Slot
+
+Allowed:
+
+```text
+Portfolio check
+Dividend tracking
+Watchlist update
+One company/news review
+```
+
+Not allowed:
+
+```text
+Intraday
+Random tips
+Panic buy/sell
+Checking again and again
+```
+
+XP:
+
+```text
+Stock Market Discipline +0.25
+```
+
+## 4:00-5:15 PM - Project Phase Start
+
+Project:
+
+```text
+Job Application Tracker
+Node.js + PostgreSQL + React + Docker
+```
+
+Today's output:
+
+```text
+README draft
+Feature list
+API list
+Database tables
+```
+
+Focus only on planning and DB design.
+
+Tables:
+
+```text
+users
+companies
+job_applications
+interview_rounds
+application_notes
+```
+
+XP:
+
+```text
+Project Building: 0 -> 1.0
+SQL Practical Understanding +0.25
+```
+
+## 5:15-6:00 PM - Rest / Family / Tea Break
+
+```text
+Hydrate.
+Light snack.
+Reset.
+```
+
+## 6:00-7:00 PM - Fitness Block
+
+Target:
+
+```text
+Workout consistency: 7.5+/10
+Steps: 10k-12k
+Protein: 100-120g
+Hydration: 3L water
+Sleep: before 11:30 PM
+```
+
+Today is not about going harder than yesterday. Today is about stacking another consistent day after an 8.1/10 fitness day.
+
+Warm-up:
+
+```text
+5-7 minutes
+Resistance band shoulder rotations
+Arm circles
+Cat-cow
+Hip mobility
+```
+
+Strength:
+
+```text
+Wide-grip pull-ups, band-assisted if needed: 4 sets
+Bar dips: 4 sets
+Dead hang: 2 x 30-40 sec
+```
+
+Core:
+
+```text
+2 rounds:
+20 glute bridges
+20 crunches
+20 Russian twists
+10 leg raises
+45 sec plank
+```
+
+Finish:
+
+```text
+8-10 minutes stretching
+```
+
+Nutrition:
+
+```text
+Morning: whey + 300 ml milk + banana
+Lunch: dal / rajma / chole / paneer
+Evening: whey + creatine
+Dinner: normal home dinner
+Fruit if hungry
+Avoid large calorie-dense extras like mango shake today
+```
+
+XP:
+
+```text
+Workout consistency target: 7.5/10
+Steps / movement: maintain 6.8/10
+Protein / diet control: 7.8+/10
+Hydration: 8.0+/10
+Sleep discipline: 6.5+/10
+Overall fitness day: 8.0+/10
+```
+
+Weekly strength focus:
+
+```text
+Increase total unassisted pulling reps.
+Yesterday: about 10 total unassisted reps.
+This week target: 12-14 total unassisted reps before switching to resistance band.
+```
+
+## 7:00-8:30 PM - Dinner + Family Time
+
+```text
+Normal dinner.
+No binge.
+No guilt.
+```
+
+Marriage/family XP counts here if you are present and calm.
+
+## 8:30-9:30 PM - Gaming Reward Slot
+
+Allowed only if minimum win is done:
+
+```text
+10 jobs applied
+SQL touched
+DSA attempted
+Project started
+Hydration decent
+```
+
+Gaming options:
+
+```text
+FC 26: 1-2 matches
+or
+ETS2: 1 delivery
+```
+
+Hard stop:
+
+```text
+75 minutes max
+```
+
+XP:
+
+```text
+Gaming Discipline +0.25 to +0.5
+Recovery Use +0.25
+```
+
+## 9:30-10:00 PM - Shutdown Review
+
+Update:
+
+```text
+Jobs applied:
+SQL done:
+DSA done:
+Go revised:
+Project started:
+Water:
+Steps:
+Stock market:
+Gaming:
+```
+
+Then send EOD update.
+
+## Final Scorecard
+
+| Area | Target | Done |
+|---|---:|---:|
+| Job applications | 10 | 10 |
+| SQL revision | 1 | 0 |
+| Course Schedule recall | 1 | 0 |
+| Go recall | 1 | 0 |
+| Project planning/schema | 1 | 0 |
+| Stock market controlled slot | 1 | 0 |
+| Fitness/hydration | 1 | 0 |
+| Gaming reward discipline | Optional | 0 |
+
+## Minimum Win Today
+
+```text
+10 jobs applied
+SQL revised
+Course Schedule skeleton attempted
+Project requirements/schema started
+3L water attempted
+```
+
+## Strong Win Today
+
+```text
+10+ jobs applied
+CREATE VIEW + JOIN written without looking
+Course Schedule full code attempted
+Go answers spoken aloud
+Project DB schema completed
+8k+ steps
+Controlled stock review
+Gaming stopped on time
 ```
 
 ## Main Line
 
 ```text
-No more only-preparation mode. We enter apply + prepare mode.
+1 July = apply, revise, build - with gaming and stocks controlled, not removed.
 ```

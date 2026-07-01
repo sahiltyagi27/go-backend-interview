@@ -538,3 +538,62 @@ Carry forward:
 3. 5 Go backend questions aloud
 4. Daily job applications must start.
 ```
+
+---
+
+# 2026-06-30 - Active Restart / Apply + Prepare Day
+
+XP:
+
+```text
+Applications:            0 -> 10 jobs applied
+Job Pipeline Momentum:   stuck -> moving
+Go Backend Confidence:   4.5  -> 4.85
+SQL Basics:              2.75 -> 3.25
+Career Momentum:         5.6  -> 6.2
+Emotional Recovery:      5.8  -> 6.4
+Overall Day:             7.2 / 10
+```
+
+Fitness XP:
+
+```text
+Workout consistency:     6.8 -> 7.4
+Steps / movement:        6.5 -> 6.8, 15.5k steps
+Protein / diet control:  7.8 -> 7.6
+Hydration:               7.8 -> 8.2
+Sleep discipline:        6.0 -> pending
+Overall fitness day:     7.4 -> 8.1
+```
+
+Completed:
+
+```text
+Applied to 10 jobs.
+Practiced SQL.
+Revised Go backend.
+Fitness was strong with unassisted chin-ups and 15.5k steps.
+```
+
+Biggest shift:
+
+```text
+No more only-preparation mode.
+Apply + prepare mode has started.
+```
+
+Confidence note:
+
+```text
+Salary did not come today, but action did.
+```
+
+Carry forward:
+
+```text
+1 July:
+1. Apply to 10 jobs minimum.
+2. SQL revision.
+3. DSA recall: Course Schedule or Min Stack.
+4. Start Job Application Tracker project requirements + DB schema.
+```
