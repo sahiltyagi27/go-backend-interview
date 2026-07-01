@@ -27,9 +27,11 @@ Prepare for Golang backend and senior software engineer interviews by covering:
 High-signal revision checklist:
 
 - [daily prep board](daily-board/today.md)
+- [spaced revision cycle](revision-cycle.md)
 - [interview readiness summary](interview-readiness-summary.md)
 - [DSA + system design most asked](dsa-system-design-most-asked.md)
 - [common company prep strategy](11-role-specific/common-prep-strategy.md)
+- [backend positioning and portfolio projects](10-senior-engineer-skills/backend-positioning-and-projects.md)
 - [GreyOrange backend/platform prep](11-role-specific/greyorange.md)
 - [MongoDB role prep](11-role-specific/mongodb.md)
 

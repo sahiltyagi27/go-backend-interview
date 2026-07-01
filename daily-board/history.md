@@ -233,3 +233,308 @@ Add Min Stack as an easy DSA confidence builder.
 Practice Kafka as spoken answers.
 Practice one project explanation using Problem -> Design -> Contribution -> Production issue -> Tradeoff -> Result.
 ```
+
+---
+
+# 2026-06-24 - Balanced Birthday Day
+
+XP:
+
+```text
+Career start:       5.25 / 10
+Career end:         5.45 / 10
+Career delta:       +0.20
+
+Fitness start:      8.2 / 10
+Fitness end:        7.0 / 10
+Fitness delta:      -1.2
+
+Emotional start:    5.25 / 10
+Emotional end:      5.5 / 10
+Emotional delta:    +0.25
+
+Attachment start:   4.9 / 10
+Attachment end:     5.0 / 10
+Attachment delta:   +0.10
+
+Relationship start: 5.5 / 10
+Relationship end:   6.25 / 10
+Relationship delta: +0.75
+
+Personal start:     6.0 / 10
+Personal end:       6.35 / 10
+Personal delta:     +0.35
+```
+
+Main focus:
+
+```text
+Lock Course Schedule, write Min Stack, and protect family priority on wife's birthday.
+```
+
+Completed:
+
+```text
+Course Schedule written clearly without looking.
+Min Stack written clearly without looking.
+No overcomplication.
+No custom queue/stack distraction.
+Family priority handled properly for wife's birthday and guests.
+Fitness saved by 10k steps and 3L water despite birthday food.
+```
+
+Skill changes:
+
+```text
+Course Schedule Practice:     6.0  -> 6.5
+Course Schedule Interview XP: 4.75 -> 5.25
+Min Stack Practice:           3.0  -> 4.75
+Min Stack Interview XP:       3.0  -> 4.0
+DSA Pattern Confidence:       5.7  -> 6.0
+Technical Communication:      4.6  -> 4.75
+Kafka Practice:               6.25 -> 6.25
+Kafka Interview XP:           5.5  -> 5.5
+Overall Interview Readiness:  5.25 -> 5.45
+
+Workout consistency:          6.8 / 10
+Steps / movement:             6.2 / 10, 10k steps
+Protein / diet control:       6.8 / 10
+Hydration:                    7.8 / 10
+Sleep discipline:             6.0 / 10
+Overall fitness day:          7.0 / 10
+
+Overall emotional health:     5.25 -> 5.5
+Overall attachment control:   4.9  -> 5.0
+Overall relationship growth:  5.5  -> 6.25
+Overall personal growth:      6.0  -> 6.35
+```
+
+Final day scores:
+
+```text
+Career day score:          7.2 / 10
+Fitness day score:         7.0 / 10
+Emotional health score:    7.2 / 10
+Marriage / relationship:   8.0 / 10
+Personal growth score:     7.5 / 10
+Attachment control score:  6.7 / 10
+```
+
+Confidence note:
+
+```text
+Balanced adult day. Protected career progress without sacrificing marriage priority.
+```
+
+Carry forward:
+
+```text
+Resume with Kafka + project explanation + one DSA repeat, no guilt carryover.
+```
+
+---
+
+# 2026-06-25 - Haridwar Travel Maintenance Day
+
+XP:
+
+```text
+Career:              maintenance
+Fitness:             travel maintenance
+Emotional / family:  priority
+Personal growth:     streak protected
+```
+
+Main focus:
+
+```text
+Travel, stay hydrated, enjoy with family, and keep one tiny career revision alive.
+```
+
+Completed / marked done:
+
+```text
+Haridwar travel day handled as maintenance mode.
+No XP penalty.
+Goal was to protect momentum instead of forcing a normal study schedule.
+```
+
+Carry forward:
+
+```text
+Return to focused interview prep after travel.
+```
+
+---
+
+# 2026-06-26 - LTM AI-Proctored Interview Day
+
+XP:
+
+```text
+Career:              interview attempt completed
+Gap discovery:       SQL + database concepts + scenario answers
+Emotional:           feedback converted into upgrade plan
+Personal growth:     no shame, just repair
+```
+
+Main focus:
+
+```text
+Complete LTM AI-proctored interview and identify exact gaps for next prep block.
+```
+
+Completed:
+
+```text
+LTM AI-proctored interview attempted.
+Go/Node/backend role revision pack created.
+Gaps identified: SQL basics, database concepts, scenario answers, and backend confidence.
+```
+
+Carry forward:
+
+```text
+Patch SQL basics.
+Revise normalized vs denormalized, replication, indexes, transactions.
+Practice anagram, Min Stack, and Course Schedule.
+Prepare STAR scenario stories.
+Keep job pipeline moving.
+```
+
+---
+
+# 2026-06-27 - Guests / Family Day
+
+XP:
+
+```text
+Career study:              no gain
+Overall readiness:         5.5 -> 5.5
+Technical communication:   stable
+SQL / backend XP:          stable
+
+Steps / movement:          +0.25
+Protein / diet control:    -0.5
+Overall fitness day:       5.8-6.2 / 10
+
+Marriage/family presence:  +0.25
+Emotional stability:       stable
+Personal growth:           stable
+```
+
+Context:
+
+```text
+Guests at home.
+No study.
+Steps completed.
+Diet bad.
+```
+
+Verdict:
+
+```text
+Not a study day, but not a failure.
+Valid family/guest day.
+Fitness damage mainly came from diet.
+```
+
+---
+
+# 2026-06-28 - Family Drive / Travel Responsibility Day
+
+XP:
+
+```text
+Career study:                no gain
+Overall readiness:           5.5 -> 5.4
+SQL urgency:                 remains high
+
+Driving responsibility:      +0.5
+Family duty XP:              +0.5
+Fortuner usage/maintenance:  +0.25
+Heat tolerance/stamina:      +0.25
+
+Steps / movement:            -0.25
+Protein / diet control:      -0.5
+Hydration:                   -0.5
+Workout consistency:         no penalty due to travel
+Overall fitness day:         5.0-5.5 / 10
+
+Family responsibility:       +0.25
+Discipline:                  stable
+Recovery need:               increased
+```
+
+Context:
+
+```text
+120 km Fortuner up-down drive.
+Relative visit.
+No study.
+Bad diet.
+Steps not completed.
+Hot day and dehydration likely.
+```
+
+Verdict:
+
+```text
+Good family/driving responsibility day.
+Weak fitness day.
+No career progress.
+Not a big career drop because this was travel/family duty.
+```
+
+---
+
+# 2026-06-29 - Soft Restart Day
+
+XP:
+
+```text
+SQL Basics:              2.0  -> 2.75
+Career Momentum:         5.4  -> 5.6
+Emotional Recovery:      5.5  -> 5.8
+Coding Independence:     4.5  -> 4.5
+Go Backend Confidence:   4.5  -> 4.5
+Fitness Recovery:        5.5  -> 6.5
+Workout Consistency:     6.8 / 10
+Steps / Movement:        6.5 / 10, 14k steps
+Overall Day:             6.0 / 10
+```
+
+Completed:
+
+```text
+SQL basics done.
+Podcasts counted as passive learning / mindset input.
+Fitness repaired through smart adjustment: push-ups 2 x 15 and 14k steps.
+No heat-stress penalty because terrace pull-ups/dips were unsafe in around 40C weather.
+```
+
+Not done:
+
+```text
+DSA recall.
+Go backend recall.
+Database repair.
+```
+
+Verdict:
+
+```text
+Soft restart day.
+Not a strong comeback, but better than guilt scrolling or quitting.
+```
+
+Carry forward:
+
+```text
+30 June should be an active restart:
+1. SQL JOIN + VIEW again
+2. Course Schedule skeleton
+3. 5 Go backend questions aloud
+4. Daily job applications must start.
+```

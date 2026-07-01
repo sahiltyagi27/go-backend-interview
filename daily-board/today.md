@@ -1,404 +1,347 @@
-# Daily Board - 2026-06-24
+# Daily Board - 2026-06-30
 
 ## Theme
 
 ```text
-24 June - DSA Consolidation + Backend Interview Communication
+30 June - Apply + Prepare Mode
 ```
 
 ## Main Goal
 
 ```text
-Course Schedule should become repeatable.
-Kafka should become speakable.
-Min Stack should become easy.
-Technical communication should improve.
+No more only-preparation mode.
+We enter apply + prepare mode.
 ```
+
+Job search needs two parallel tracks:
+
+1. Study to improve interview readiness.
+2. Apply daily to create opportunities.
+
+Readiness comes from:
+
+```text
+applications -> callbacks -> interviews -> gaps exposed -> revision -> better interviews
+```
+
+Not only from studying alone.
 
 ## XP Dashboard
 
 ```text
-Overall Career XP:        5.25 / 10 -> 5.5 / 10
-Overall Fitness XP:       recovery + mobility day, 7.0 / 10 effort target
-Overall Emotional XP:     target 7.0 / 10 day score
-Attachment Growth XP:     maintain
-Personal Growth XP:       target 7.5 / 10 day score
-Overall Day Target:       7.5 / 10
+Applications:             0 -> 10 completed
+SQL Basics:               2.75 -> 3.25
+Course Schedule:          skeleton recall
+Go Backend Recall:        4.5 -> 4.85
+Career Momentum:          5.6 -> 6.2
+Emotional Recovery:       5.8 -> 6.4
+Overall Day:              7.2 / 10
 
-Today's XP Goal:          lock Course Schedule + add Min Stack + speak Kafka/project clearly
-Energy:                   TBD
-Confidence:               5.75 / 10 -> 6.0 / 10
+Today's XP Goal:          apply + prepare
+Energy:                   salary-credit emotional day
+Confidence:               action beats waiting
 ```
-
-## Career XP Dashboard
-
-| Skill | Current | Target |
-|---|---:|---:|
-| Overall Career XP / Interview Readiness | 5.25 / 10 | 5.5 / 10 |
-| DSA Pattern Confidence | 5.7 / 10 | 6.0 / 10 |
-| Technical Communication | 4.6 / 10 | 5.0 / 10 |
-| Mood / Confidence | 5.75 / 10 | 6.0 / 10 |
-
-## Topic XP Split
-
-| Topic | Current XP | Target XP | Today's Target |
-|---|---:|---:|---|
-| Course Schedule Practice | 6.0 / 10 | 6.5 / 10 | Write without looking |
-| Course Schedule Interview | 4.75 / 10 | 5.25 / 10 | Explain cleanly |
-| Min Stack Practice | 3.0 / 10 | 4.5 / 10 | Two-slice implementation |
-| Min Stack Interview | 3.0 / 10 | 3.75 / 10 | Explain O(1) minimum |
-| Kafka Practice | 6.25 / 10 | 6.5 / 10 | Speak revision |
-| Kafka Interview | 5.5 / 10 | 5.75 / 10 | Smooth answers |
 
 ## Board Rule
 
 ```text
-Do not chase novelty.
-Do not start hard graph problems.
-Do not change to custom queue.
-Do not look at Course Schedule solution first.
-No MAI replay.
-Convert today's progress into interview memory.
+No more only-preparation mode.
+Do not wait until fully ready to apply.
+Apply now, improve while pipeline builds.
+```
+
+## Application XP
+
+```text
+0 applications:   job pipeline stuck
+5 applications:   small movement
+10 applications:  daily minimum met
+20 applications:  strong job-search day
+30+ applications: aggressive comeback day
+```
+
+Daily minimum:
+
+```text
+Minimum applications/day: 10
+Good target:              20
+Strong day:               30+
+```
+
+## Application Buckets
+
+### Bucket 1 - High Match Jobs
+
+Apply carefully to:
+
+- Go Backend Engineer
+- Node.js Backend Engineer
+- Backend Engineer
+- Software Engineer - Backend
+- Platform Engineer
+- Infrastructure Engineer
+
+Target:
+
+```text
+5 strong applications/day
+```
+
+### Bucket 2 - Service Company / Immediate Job Jobs
+
+Apply to:
+
+- LTI Mindtree
+- TCS
+- Infosys
+- Wipro
+- HCL
+- Coforge
+- Persistent
+- Nagarro
+- Globant
+- EPAM
+- Accenture
+- Capgemini
+- Cognizant
+- Tech Mahindra
+
+Target:
+
+```text
+5-10 applications/day
+```
+
+### Bucket 3 - Remote / Startup / Backend Roles
+
+Apply to:
+
+- Go + Kafka
+- Node.js + PostgreSQL
+- Backend + Redis
+- Backend + MongoDB
+- Platform/internal tools
+
+Target:
+
+```text
+5 applications/day
 ```
 
 ## Daily Scorecard
 
 | Area | Target | Done |
 |---|---:|---:|
-| Course Schedule repeat | 1 | 0 |
-| Min Stack implementation | 1 | 0 |
-| Kafka spoken revision | 1 | 0 |
-| Project explanation practice | 1 | 0 |
-| Night light revision | 1 | 0 |
-| Fitness block | 1 | 0 |
+| Job applications | 10 | 10 |
+| SQL JOIN + VIEW | 1 | 1 |
+| Course Schedule skeleton | 1 | 0 |
+| Go backend 5-question recall | 1 | 1 |
+| Application tracker update | 1 | 0 |
+| Hydration / body reset | 1 | 1 |
+| Fitness block | 1 | 1 |
 
-## Morning Block - 9:30 AM to 11:00 AM
+## Job Search Block
 
-### Quest 1: Course Schedule Repeat
-
-Steps:
-
-1. Open blank Go file.
-2. Write `canFinish` without looking.
-3. Use vanilla Go only.
-4. Run with 2 examples.
-
-Example 1, possible:
-
-```go
-numCourses := 4
-prerequisites := [][]int{{1,0}, {2,0}, {3,1}, {3,2}}
-```
-
-Expected:
+Time:
 
 ```text
-true
+30-45 min: search jobs
+30-45 min: apply
+15 min: update tracker
 ```
 
-Example 2, cycle:
-
-```go
-numCourses := 2
-prerequisites := [][]int{{1,0}, {0,1}}
-```
-
-Expected:
+Non-negotiable:
 
 ```text
-false
+Apply to 10 jobs today.
 ```
 
-Say aloud:
+## Study Block 1 - SQL JOIN + VIEW
+
+Goal:
 
 ```text
-I build graph from prerequisite to course.
-Indegree means pending prerequisites.
-Zero indegree courses enter the queue.
-Processing a course unlocks dependent courses.
-If processed count equals total courses, no cycle exists.
+Write one INNER JOIN query and one CREATE VIEW query without looking.
 ```
 
-XP target:
+Recall:
 
 ```text
-Course Schedule Practice XP:    6.0  -> 6.5
-Course Schedule Interview XP:   4.75 -> 5.25
-DSA Confidence:                 5.7  -> 5.9
+INNER JOIN = matching rows only.
+LEFT JOIN = all rows from left table, matching right rows if present.
+VIEW = saved reusable query.
 ```
 
-Avoid:
+## Study Block 2 - Course Schedule Skeleton
+
+Write or speak the skeleton:
 
 ```text
-Do not look at solution first.
-Do not start hard graph problem.
-Do not change to custom queue.
+graph := make([][]int, numCourses)
+indegree := make([]int, numCourses)
+build graph prereq -> course
+push indegree 0 courses to queue
+process queue
+reduce indegree of next courses
+return processed == numCourses
 ```
 
-## Late Morning Block - 11:15 AM to 12:15 PM
+## Study Block 3 - Go Backend 5-Question Recall
 
-### Quest 2: Min Stack
+Speak aloud:
 
-This is the easy DSA confidence builder.
+1. What is a goroutine?
+2. What is a channel?
+3. What is `WaitGroup`?
+4. What is context cancellation?
+5. How would I design a worker pool?
 
-Steps:
-
-1. Write Min Stack using two slices.
-2. Main stack stores values.
-3. Min stack stores minimum so far.
-4. Implement `Push`, `Pop`, `Top`, and `GetMin`.
-
-Memory rule:
+Memory line:
 
 ```text
-Push value to main stack.
-Push current minimum to min stack.
-Pop from both.
-GetMin is top of min stack.
+Go backend is not lost. It only needs rhythm.
 ```
 
-XP target:
+## Fitness / Body Minimum
+
+Today is not punishment.
+
+- [x] Water / hydration strong.
+- [x] Protein decent.
+- [x] No binge.
+- [x] 15.5k steps.
+- [x] Smart heat-adjusted workout.
+
+Workout completed:
 
 ```text
-Min Stack Practice XP:       3.0 -> 4.5
-Min Stack Interview XP:      3.0 -> 3.75
-DSA Confidence:              5.9 -> 6.0
+Warm-up with resistance band.
+Around 10 total unassisted chin-ups, mix of normal and wide grip.
+
+Conditioning/core, 2 rounds:
+- 20 jumping jacks
+- 20 high knees
+- 20 glute bridges
+- 10 leg raises
+- 10 leg crunches
+- 20 Russian twists
+- 40-second plank
+- 10 push-ups
+- 15 squats
 ```
 
-## Lunch / Rest - 12:15 PM to 2:00 PM
+Fitness note:
 
 ```text
-Eat properly.
-No doom scrolling.
-No MAI replay.
-No "one month wasted" thought loop.
-Light walk if possible.
-```
-
-## Afternoon Block - 2:00 PM to 3:15 PM
-
-### Quest 3: Kafka Speaking Revision
-
-No long notes. Speak answers.
-
-Questions:
-
-1. What is Kafka?
-2. Topic vs partition?
-3. Consumer group?
-4. Offset?
-5. When to commit offset?
-6. What if processing fails?
-7. Retry vs DLQ?
-8. Why idempotency?
-9. Where is ordering guaranteed?
-
-Strong answer focus:
-
-```text
-Offset commit after successful processing.
-Retry with backoff.
-After max retries, send to DLQ.
-Use idempotency because duplicate processing is possible.
-Ordering is guaranteed only within a partition.
-```
-
-XP target:
-
-```text
-Kafka Practice XP:        6.25 -> 6.5
-Kafka Interview XP:       5.5  -> 5.75
-Technical Communication:  4.6  -> 4.8
-```
-
-## Break - 3:15 PM to 4:00 PM
-
-```text
-Tea / water / family / rest.
-No new topic.
-```
-
-## Evening Career Block - 4:00 PM to 5:15 PM
-
-### Quest 4: Project Explanation Practice
-
-This is important for actual interviews.
-
-Speak one project from your resume in this structure:
-
-1. Problem
-2. System/design
-3. Your contribution
-4. Scale/performance/production issue
-5. Tradeoff
-6. Result
-
-Template:
-
-```text
-In one of my backend projects, the problem was ______.
-We designed it using ______.
-My responsibility was ______.
-One challenge was ______.
-I handled it by ______.
-The result was ______.
-```
-
-XP target:
-
-```text
-Technical Communication:      4.8  -> 5.0
-Overall Interview Readiness:  5.25 -> 5.5
-Mood / Confidence:            5.75 -> 6.0
-```
-
-## Fitness Block - Recovery + Mobility + Light Pull
-
-### Why This Plan
-
-```text
-Sunday:  Pull-ups + core + glutes
-Monday:  Pull-ups + core + glutes + sumo squats + lunges
-Tuesday: Bar dips + push-ups + core + glutes + 20 kg sumo squats
-
-Tomorrow should not repeat Tuesday.
-Recovery is part of the XP system.
-Goal: consistency, waist reduction, strength progression, and keeping hips/back happy.
-```
-
-Effort target:
-
-```text
-7 / 10 effort day.
-Do not chase another 8.5 / 10 workout.
-```
-
-Workout:
-
-- [ ] Wide-grip pull-ups with band: 3-4 sets.
-- [ ] Dead hangs: 2 rounds.
-- [ ] Bulgarian split squats: 2-3 sets each leg.
-- [ ] Hip mobility work: 10 minutes.
-- [ ] Cat-cow.
-- [ ] Cobra.
-- [ ] Child's pose.
-- [ ] Hip flexor stretch.
-- [ ] Easy walk.
-
-Avoid:
-
-```text
-No push-ups.
-No dips.
-No heavy sumo squat repeat.
-No ego workout.
-No repeating Tuesday just because energy feels good.
-```
-
-Fitness target:
-
-```text
-Workout consistency:       maintain 7+
-Steps / movement:          easy walk, 8k+ if natural
-Protein / diet control:    7+
-Hydration:                 7+
-Sleep discipline:          6.5+
-Overall fitness day:       7.0-7.5 target
-```
-
-## Night Block - 9:15 PM to 9:40 PM
-
-Light revision only.
-
-Say these once:
-
-```text
-Kahn = graph + indegree + zero queue + unlock + processed count.
-Min Stack = main stack + min stack.
-Kafka = topic, partition, consumer group, offset, retry, DLQ, idempotency.
-```
-
-Then stop.
-
-```text
-No new coding after 10 PM.
+Biggest win: deliberately practiced unassisted chin-ups to rebuild the movement pattern.
+This was a smart heat-adjusted workout, not a missed heavy session.
 ```
 
 ## Win Conditions
 
 Minimum win:
 
-- [ ] Course Schedule written once without looking.
-- [ ] Min Stack written once.
-- [ ] Kafka spoken once.
-- [ ] One project explanation spoken once.
-- [ ] Recovery fitness block completed.
+- [x] 10 applications.
+- [x] SQL JOIN + VIEW touched.
+- [ ] Course Schedule skeleton recalled.
+- [x] 5 Go backend questions spoken.
 
 Strong win:
 
-- [ ] Course Schedule written cleanly without looking.
-- [ ] Min Stack correct.
-- [ ] Kafka answers smooth.
-- [ ] Project explanation clear.
-- [ ] Recovery fitness block completed without ego lifting.
-- [ ] Sleep around 11:30 PM.
+- [ ] 20 applications.
+- [ ] SQL JOIN + VIEW written without looking.
+- [ ] Course Schedule skeleton written.
+- [ ] Application tracker updated.
+- [ ] Fitness/body minimum done.
 
-## Final Target Score
+## XP Change Today
 
 ```text
-Career day target:          7.5 / 10
-Fitness day target:         7.0-7.5 / 10
-Emotional health target:    7.0 / 10
-Personal growth target:     7.5 / 10
-Overall day target:         7.5 / 10
+Applications:
+Start: 0
+End:   10 jobs applied
+XP:    daily minimum met
+
+Job Pipeline Momentum:
+Start: stuck
+End:   moving
+
+Go Backend Confidence:
+Start: 4.5 / 10
+End:   4.85 / 10
+Delta: +0.35
+
+SQL Basics:
+Start: 2.75 / 10
+End:   3.25 / 10
+Delta: +0.5
+
+Career Momentum:
+Start: 5.6 / 10
+End:   6.2 / 10
+Delta: +0.6
+
+Emotional Recovery:
+Start: 5.8 / 10
+End:   6.4 / 10
+Delta: +0.6
+
+Fitness XP:
+Workout consistency:     6.8 -> 7.4
+Steps / movement:        6.5 -> 6.8, 15.5k steps
+Protein / diet control:  7.8 -> 7.6
+Hydration:               7.8 -> 8.2
+Sleep discipline:        6.0 -> pending
+Overall fitness day:     7.4 -> 8.1
+
+Fitness result:
+Strong 8+/10 fitness day. Unassisted chin-ups were the biggest win.
+
+Overall Day:
+End: 7.2 / 10
 ```
 
 ## End Of Day Summary
 
 ```text
-Fill this at EOD.
+Active restart day.
+Applied to 10 jobs.
+Practiced SQL.
+Revised Go backend.
+Fitness was strong with unassisted chin-ups and 15.5k steps.
+
+Biggest shift:
+No more only-preparation mode. Apply + prepare mode has started.
+
+Salary did not come today, but action did.
 ```
 
-## XP Change Today
+## 1 July Direction
 
 ```text
-Career XP:
-Start: 5.25 / 10
-End:   TBD
-Delta: TBD
+1. Apply to 10 jobs minimum.
+2. SQL revision.
+3. DSA recall: Course Schedule or Min Stack.
+4. Start Job Application Tracker project requirements + DB schema.
+```
 
-Fitness XP:
-Start: 8.2 / 10
-End:   TBD
-Delta: TBD
+Project rule:
 
-Emotional XP:
-Start: 5.25 / 10
-End:   TBD
-Delta: TBD
-
-Attachment / Growth XP:
-Start: 4.9 / 10
-End:   TBD
-Delta: TBD
+```text
+No heavy frontend tomorrow.
+Start the project properly.
 ```
 
 ## XP Drop Check
 
 ```text
-Did any skill get rusty, avoided, or fail recall today?
-
-No drop for planned rest.
-No drop for one emotionally hard day if one useful action happened.
-
-Drops:
--0.25 = minor rust / distracted prep
--0.50 = failed recall or skipped important planned task
--1.00 = blank on previously known topic / repeated neglect
+Studying without applying can become a comfort loop.
+0 applications means job pipeline stuck.
+10 applications means daily minimum met.
 ```
 
 ## Main Line
 
 ```text
-Don't chase novelty. Convert today's progress into interview memory.
+No more only-preparation mode. We enter apply + prepare mode.
 ```

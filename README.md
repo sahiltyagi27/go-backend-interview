@@ -12,6 +12,7 @@ It does not replace the repos we already created. Instead, it acts as the master
 For the full step-by-step study path, read:
 
 - [ROADMAP.md](ROADMAP.md)
+- [revision-cycle.md](revision-cycle.md)
 - [daily-board/today.md](daily-board/today.md)
 - [interview-readiness-summary.md](interview-readiness-summary.md)
 - [backend-interview-reality-check.md](backend-interview-reality-check.md)
@@ -42,6 +43,7 @@ For the full step-by-step study path, read:
 | Topic | File |
 |---|---|
 | daily prep board | [daily-board/today.md](daily-board/today.md) |
+| spaced revision cycle | [revision-cycle.md](revision-cycle.md) |
 | Excel XP tracker | [daily-board/interview-fitness-xp-tracker.xlsx](daily-board/interview-fitness-xp-tracker.xlsx) |
 | daily prep history | [daily-board/history.md](daily-board/history.md) |
 | interview readiness summary | [interview-readiness-summary.md](interview-readiness-summary.md) |
@@ -76,6 +78,7 @@ For the full step-by-step study path, read:
 | DDD and event-driven design | [10-senior-engineer-skills/ddd-event-driven-design.md](10-senior-engineer-skills/ddd-event-driven-design.md) |
 | capacity planning and architecture decisions | [10-senior-engineer-skills/capacity-planning-architecture-decisions.md](10-senior-engineer-skills/capacity-planning-architecture-decisions.md) |
 | career positioning and project storytelling | [10-senior-engineer-skills/career-positioning.md](10-senior-engineer-skills/career-positioning.md) |
+| backend positioning and portfolio projects | [10-senior-engineer-skills/backend-positioning-and-projects.md](10-senior-engineer-skills/backend-positioning-and-projects.md) |
 | AI skills: prompt engineering, RAG, MCP | [10-senior-engineer-skills/ai-skills.md](10-senior-engineer-skills/ai-skills.md) |
 | common company prep strategy | [11-role-specific/common-prep-strategy.md](11-role-specific/common-prep-strategy.md) |
 | GreyOrange backend/platform prep | [11-role-specific/greyorange.md](11-role-specific/greyorange.md) |
