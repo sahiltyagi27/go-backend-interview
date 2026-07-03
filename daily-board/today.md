@@ -1,129 +1,128 @@
-# Daily Board - 2026-07-01
+# Daily Board - 2026-07-03
 
 ## Theme
 
 ```text
-Apply + Prepare + Build
+3 July - Round 2 Prep Mode Begins
+```
+
+## Main Goal
+
+```text
+LTIMindtree Round 2 is confirmed for Monday 3 PM.
+Documents / UAN issue can hold for now.
+Interview prep mode is now activated.
 ```
 
 ## Priority Order
 
 ```text
-1. Job applications
-2. SQL + DSA + Go revision
-3. Project start
-4. Fitness / hydration
-5. Stock market
-6. Gaming reward
+1. LTIM Round 2 prep
+2. SQL + DB fundamentals
+3. Go + Node.js revision
+4. Resume scenario answers
+5. Job applications
+6. Project only as light hands-on
+7. Fitness / hydration
+8. Stock / gaming controlled
 ```
 
-## Board Rule
+## 10:00-10:30 AM - Reset + Prep Setup
+
+Create one note:
 
 ```text
-No tutorial rabbit hole.
-No waiting to feel ready.
-No AI-generated full project code.
-AI can guide, review, debug, and explain.
-My hands write the project code.
+LTIM Round 2 Prep
 ```
 
-## 11:30 AM-12:30 PM - Job Applications
-
-Target:
+Sections:
 
 ```text
-Apply to 10 jobs minimum.
+1. Tell me about yourself
+2. Resume project explanation
+3. Go questions
+4. Node.js questions
+5. SQL/DB questions
+6. Kafka/Redis/ClickHouse
+7. Production issue scenarios
+8. Coding practice
+9. Questions to ask interviewer
 ```
 
-Also update tracker:
+Top of note:
 
 ```text
-Company
-Role
-Link/source
-Status
-Date applied
+Interview: LTIMindtree Round 2
+Time: Monday 3 PM
+Role: Go + Node.js Backend Engineer
+Goal: clear technical + scenario discussion
 ```
 
-XP:
+Status:
 
 ```text
-Job Application Rhythm +0.5
+Done: 11-role-specific/ltim-round-2-prep.md
 ```
 
-## 12:30-1:15 PM - SQL Revision
+## 10:30-11:30 AM - Resume Defense Round
 
-Do:
+Prepare spoken answers:
 
 ```text
-INNER JOIN
-LEFT JOIN
-GROUP BY
-CREATE VIEW
-```
-
-Goal:
-
-```text
-Write one CREATE VIEW + INNER JOIN without looking.
-Write one GROUP BY query.
-```
-
-Example target:
-
-```sql
-CREATE VIEW application_summary AS
-SELECT
-    c.name AS company_name,
-    j.role,
-    j.status,
-    j.applied_date
-FROM companies c
-INNER JOIN job_applications j
-ON c.id = j.company_id;
-```
-
-XP:
-
-```text
-SQL Basics: 3.25 -> 3.75
-```
-
-## 1:15-2:00 PM - Lunch + Rest
-
-```text
-Eat properly.
-Hydrate.
-No YouTube rabbit hole.
-```
-
-## 2:00-2:40 PM - DSA Recall
-
-Main problem:
-
-```text
-Course Schedule
-```
-
-Recall hook:
-
-```text
-graph -> indegree -> zero queue -> process -> unlock -> count
+1. Tell me about yourself.
+2. Explain your current/recent backend work.
+3. Explain the URL shortener project.
+4. Explain your Kafka/ClickHouse data pipeline work.
+5. Explain one production issue you handled.
+6. Explain your cloud migration work.
 ```
 
 Minimum win:
 
 ```text
-Write skeleton.
+Speak each answer once.
 ```
 
 Strong win:
 
 ```text
-Write full Go code without looking.
+Record yourself once or speak aloud like interview.
 ```
 
-## 2:40-3:10 PM - Go Backend Recall
+## 11:30 AM-12:15 PM - SQL + DB Fundamentals
+
+Revise:
+
+```text
+JOIN
+GROUP BY
+CREATE VIEW
+Normalization
+Denormalization
+ACID
+Transactions
+Indexes
+Replication
+```
+
+Practice:
+
+```text
+1 CREATE VIEW + INNER JOIN
+1 GROUP BY query
+Explain normalization vs denormalization
+Explain ACID
+Explain replication advantages
+```
+
+XP target:
+
+```text
+SQL Basics: 4.1 -> 4.4
+DB Fundamentals: 3.25 -> 3.75
+```
+
+## 12:15-1:00 PM - Go Backend Revision
 
 Speak aloud:
 
@@ -133,12 +132,15 @@ Speak aloud:
 3. WaitGroup
 4. Context cancellation
 5. Worker pool
+6. Mutex
+7. Slice vs map basics
+8. Error handling in Go
 ```
 
 Minimum win:
 
 ```text
-30 seconds answer each.
+Explain goroutine, channel, WaitGroup, context.
 ```
 
 Strong win:
@@ -147,263 +149,287 @@ Strong win:
 Write small worker pool skeleton.
 ```
 
-## 3:10-3:30 PM - Break
+## 1:00-1:45 PM - Lunch + Rest
 
 ```text
-Water.
-Walk around.
-Eyes rest.
+Eat properly.
+Hydrate.
+No panic scrolling.
+No EPFO refresh loop.
 ```
 
-## 3:30-4:00 PM - Stock Market Slot
+## 1:45-2:30 PM - Node.js Revision
+
+Revise:
+
+```text
+Event loop
+Callbacks / promises / async-await
+Express middleware
+Error handling
+REST API structure
+TypeScript basics
+package.json
+npm scripts
+```
+
+Interview lines:
+
+```text
+Node.js is single-threaded for JS execution but uses libuv/thread pool for async I/O operations.
+Middleware functions run between request and response and are used for auth, logging, validation, and error handling.
+Express helps structure routes, controllers, and middleware for REST APIs.
+```
+
+Minimum win:
+
+```text
+Explain event loop + middleware + async-await.
+```
+
+## 2:30-3:30 PM - Job Applications
+
+Target:
+
+```text
+10 jobs minimum
+```
+
+Because Round 2 is active, do not spend 3 hours applying.
+
+Apply to:
+
+```text
+Go Backend
+Node.js Backend
+Backend Engineer
+Software Engineer Backend
+Platform Engineer
+```
+
+XP target:
+
+```text
+Job Application Rhythm maintained
+```
+
+## 3:30-4:00 PM - Controlled Stock Review
+
+Keep it short.
 
 Allowed:
 
 ```text
 Portfolio check
-Dividend tracking
-Watchlist update
+Dividend / watchlist update
 One company/news review
 ```
 
 Not allowed:
 
 ```text
-Intraday
 Random tips
 Panic buy/sell
-Checking again and again
+Overchecking
 ```
 
-XP:
+## 4:00-5:00 PM - Resume Scenario Practice
+
+Prepare 5 scenario answers:
 
 ```text
-Stock Market Discipline +0.25
+1. A difficult production issue you solved.
+2. A time you improved performance.
+3. A time you worked with Kafka/data pipelines.
+4. A time you handled ambiguity or unclear requirement.
+5. A time you worked with another team.
 ```
 
-## 4:00-5:15 PM - Project Phase Start
-
-Project:
+Use this answer format:
 
 ```text
-Job Application Tracker
-Node.js + PostgreSQL + React + Docker
+Situation
+Task
+Action
+Result
+Learning
 ```
 
-Today's output:
+Strong win:
 
 ```text
-README draft
-Feature list
-API list
-Database tables
+Write 5 bullet answers, not essays.
 ```
 
-Focus only on planning and DB design.
+## 5:00-5:30 PM - DSA / Coding Light
 
-Tables:
+Do not overload.
+
+Main:
 
 ```text
-users
-companies
-job_applications
-interview_rounds
-application_notes
+Valid Anagram
 ```
 
-XP:
+Bonus:
 
 ```text
-Project Building: 0 -> 1.0
-SQL Practical Understanding +0.25
+Course Schedule skeleton
 ```
 
-## 5:15-6:00 PM - Rest / Family / Tea Break
+Since Monday may include coding, keep coding alive.
 
-```text
-Hydrate.
-Light snack.
-Reset.
-```
+## 5:30-6:15 PM - Project Light Touch
 
-## 6:00-7:00 PM - Fitness Block
+Continue Job Application Tracker only lightly.
 
 Target:
 
 ```text
-Workout consistency: 7.5+/10
-Steps: 10k-12k
-Protein: 100-120g
-Hydration: 3L water
-Sleep: before 11:30 PM
+Review Express folder structure
+Improve health route
+Add applications route placeholder
+No frontend
+No heavy feature
 ```
 
-Today is not about going harder than yesterday. Today is about stacking another consistent day after an 8.1/10 fitness day.
+This keeps project alive but does not steal interview prep time.
+
+## Evening - Fitness / Hydration
+
+Thursday Push Day.
 
 Warm-up:
 
 ```text
-5-7 minutes
-Resistance band shoulder rotations
-Arm circles
+5-8 min
+Shoulder rotations
+Arm swings
 Cat-cow
-Hip mobility
+Light push-ups
 ```
 
-Strength:
+Push:
 
 ```text
-Wide-grip pull-ups, band-assisted if needed: 4 sets
-Bar dips: 4 sets
-Dead hang: 2 x 30-40 sec
+Dips: 5 x 5-10
+Decline push-ups: 4 x 8-15
+Slow tempo push-ups: 3 x 8-12
+Pike push-ups: 3 x 6-12
 ```
 
 Core:
 
 ```text
-2 rounds:
-20 glute bridges
-20 crunches
-20 Russian twists
-10 leg raises
-45 sec plank
+Side plank: 3 x 30-45 sec each side
 ```
 
-Finish:
+Mobility:
 
 ```text
-8-10 minutes stretching
+Hip flexor stretch
+Child's pose
+Cobra
+Shoulder stretch
+Total: 8-10 min
 ```
 
-Nutrition:
+Daily targets:
 
 ```text
-Morning: whey + 300 ml milk + banana
-Lunch: dal / rajma / chole / paneer
-Evening: whey + creatine
-Dinner: normal home dinner
-Fruit if hungry
-Avoid large calorie-dense extras like mango shake today
+Steps: 10k+
+Protein: 2 whey scoops + normal home food
+Hydration: 3L+
+Sleep: 11-11:30 PM
+Overall fitness day target: 8/10+
 ```
 
-XP:
+## 8:30-9:30 PM - Gaming Reward
+
+Allowed only if:
 
 ```text
-Workout consistency target: 7.5/10
-Steps / movement: maintain 6.8/10
-Protein / diet control: 7.8+/10
-Hydration: 8.0+/10
-Sleep discipline: 6.5+/10
-Overall fitness day: 8.0+/10
-```
-
-Weekly strength focus:
-
-```text
-Increase total unassisted pulling reps.
-Yesterday: about 10 total unassisted reps.
-This week target: 12-14 total unassisted reps before switching to resistance band.
-```
-
-## 7:00-8:30 PM - Dinner + Family Time
-
-```text
-Normal dinner.
-No binge.
-No guilt.
-```
-
-Marriage/family XP counts here if you are present and calm.
-
-## 8:30-9:30 PM - Gaming Reward Slot
-
-Allowed only if minimum win is done:
-
-```text
-10 jobs applied
-SQL touched
-DSA attempted
-Project started
+Round 2 prep done
+SQL revised
+Go/Node revised
+10 jobs applied or at least meaningful job block done
 Hydration decent
 ```
 
-Gaming options:
+Limit:
 
 ```text
 FC 26: 1-2 matches
 or
 ETS2: 1 delivery
+75 min max
 ```
 
-Hard stop:
+## 9:30-10:00 PM - EOD Review
+
+Send:
 
 ```text
-75 minutes max
-```
-
-XP:
-
-```text
-Gaming Discipline +0.25 to +0.5
-Recovery Use +0.25
-```
-
-## 9:30-10:00 PM - Shutdown Review
-
-Update:
-
-```text
-Jobs applied:
-SQL done:
-DSA done:
+Resume answers done:
+SQL/DB done:
 Go revised:
-Project started:
+Node revised:
+Jobs applied:
+Scenario answers:
+Coding done:
+Project progress:
 Water:
-Steps:
-Stock market:
+Workout/diet:
+Stock review:
 Gaming:
+Mood:
 ```
 
-Then send EOD update.
-
-## Final Scorecard
+## Daily Scorecard
 
 | Area | Target | Done |
 |---|---:|---:|
-| Job applications | 10 | 10 |
-| SQL revision | 1 | 0 |
-| Course Schedule recall | 1 | 0 |
-| Go recall | 1 | 0 |
-| Project planning/schema | 1 | 0 |
-| Stock market controlled slot | 1 | 0 |
-| Fitness/hydration | 1 | 0 |
-| Gaming reward discipline | Optional | 0 |
+| LTIM Round 2 prep note | 1 | 1 |
+| Resume defense answers | 6 | 0 |
+| SQL + DB fundamentals | 1 | 0 |
+| Go backend revision | 1 | 0 |
+| Node.js revision | 1 | 0 |
+| Job applications | 10 | 0 |
+| Stock market controlled review | 1 | 0 |
+| Resume scenario answers | 5 | 0 |
+| DSA / coding light | 1 | 0 |
+| Project light touch | 1 | 0 |
+| Fitness / hydration | 1 | 0 |
+| Gaming discipline | Optional | 0 |
 
 ## Minimum Win Today
 
 ```text
+Resume answers spoken
+SQL + DB revised
+Go revised
+Node revised
 10 jobs applied
-SQL revised
-Course Schedule skeleton attempted
-Project requirements/schema started
 3L water attempted
 ```
 
 ## Strong Win Today
 
 ```text
+Resume stories prepared
+SQL queries written without looking
+Go + Node answers spoken aloud
 10+ jobs applied
-CREATE VIEW + JOIN written without looking
-Course Schedule full code attempted
-Go answers spoken aloud
-Project DB schema completed
+5 scenario answers written
+Valid Anagram or Course Schedule attempted
+Project route placeholder added
 8k+ steps
-Controlled stock review
-Gaming stopped on time
 ```
 
 ## Main Line
 
 ```text
-1 July = apply, revise, build - with gaming and stocks controlled, not removed.
+3 July = Round 2 prep starts seriously.
+Documents paused. Interview is live.
+Prepare like selected, not like rejected.
 ```

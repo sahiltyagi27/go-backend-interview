@@ -597,3 +597,154 @@ Carry forward:
 3. DSA recall: Course Schedule or Min Stack.
 4. Start Job Application Tracker project requirements + DB schema.
 ```
+
+---
+
+# 2026-07-01 - Apply + Prepare + Build Day
+
+XP:
+
+```text
+Job Application Rhythm:     6.5 -> 7.0
+Career Momentum:            6.2 -> 6.8
+SQL Basics:                 3.25 -> 3.75
+JS/TS Foundation:           2.5 -> 3.0
+Project Readiness:          0.5 -> 0.75
+Stock Market Discipline:    5.5 -> 5.75
+Portfolio Review Control:   5.0 -> 5.5
+Emotional Trading Control:  5.0 -> 5.25
+Overall Day Score:          8.0 / 10
+```
+
+Fitness XP:
+
+```text
+Workout consistency:        7.4 -> 7.8
+Steps / movement:           6.8 -> 7.0, 13.4k steps
+Protein / diet control:     7.6 -> 7.8
+Hydration:                  8.2 -> 8.2, 3L water
+Sleep discipline:           6.0 -> pending
+Overall fitness day:        8.1 -> 8.3
+```
+
+Completed:
+
+```text
+Applied to 10 jobs.
+Completed SQL revision.
+Completed controlled stock market review.
+Completed strong fitness day with bar dips, wide-grip band-assisted chin-ups, core, 13.4k steps, and 3L water.
+Revised JavaScript / TypeScript instead of formally starting the project.
+```
+
+Missed:
+
+```text
+Course Schedule was not attempted.
+Formal project start did not happen.
+```
+
+Interpretation:
+
+```text
+Project did not formally start, but JS/TS revision counts as pre-project foundation because the Job Application Tracker needs Node, React, and TypeScript.
+Course Schedule stayed stable but rusty and must be touched next day for 20-30 minutes.
+```
+
+Confidence note:
+
+```text
+10 applications again means the job pipeline is becoming a system, not a one-day accident.
+```
+
+Carry forward:
+
+```text
+2 July:
+1. Apply to 10 jobs minimum.
+2. SQL + DB fundamentals.
+3. Course Schedule skeleton or full code.
+4. Start Node.js project with own hands.
+5. Add clean code and one system design reading block.
+```
+
+---
+
+# 2026-07-02 - Real Execution / Project Start Day
+
+XP:
+
+```text
+Job Applications:          10+ applied
+Job Application Rhythm:    7.0  -> 7.35
+SQL Basics:                3.75 -> 4.1
+Node.js:                   1.0  -> 1.5
+TypeScript:                3.0  -> 3.35
+Project Building:          0.75 -> 1.75
+Coding Independence:       4.5  -> 5.1
+Stock Market Discipline:   5.75 -> 6.0
+Career Momentum:           6.8  -> 7.4
+Overall Day Score:         8.3 / 10
+```
+
+Fitness XP:
+
+```text
+Workout consistency:       7.8 -> 7.6
+Steps / movement:          7.0 -> 7.0, 10.5k steps
+Protein / diet control:    7.8 -> 8.2
+Hydration:                 8.2 -> 8.3, 3L+ water
+Sleep discipline:          6.0 -> 6.8, 11 PM
+Overall fitness day:       8.3 -> 8.4
+```
+
+Completed:
+
+```text
+SQL practice.
+10+ job applications.
+Controlled portfolio check.
+Node.js + TypeScript revision.
+Started Job Application Tracker project.
+Created basic folder structure.
+npm init.
+TypeScript dependencies.
+Express health check route.
+Writing code yourself.
+Using Claude only for best practices/guidance.
+Strong fitness day with 10.5k steps, 3L+ water, good protein, moderate workout, and 11 PM sleep.
+```
+
+Missed / pending:
+
+```text
+Course Schedule was not mentioned, so no DSA XP gain.
+LTIM documents still pending due to EPFO maintenance.
+```
+
+Biggest win:
+
+```text
+AI as mentor: yes.
+AI as full-code generator: no.
+```
+
+Project status:
+
+```text
+Job Application Tracker officially started.
+Backend: Node.js + Express + TypeScript.
+Health route: done.
+Professional workflow: started.
+```
+
+Carry forward:
+
+```text
+3 July:
+1. Handle LTIMindtree documents because deadline is 3 July.
+2. Keep 10-job application rhythm alive.
+3. Continue Node.js project with src structure, route/controller/service separation, env config, error handler, and applications route skeleton.
+4. Touch Course Schedule because it was missed.
+5. Maintain fitness rhythm.
+```
