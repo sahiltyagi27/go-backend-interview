@@ -45,6 +45,7 @@ Important files:
 
 - `channels-ping-pong.md`
 - `graceful-shutdown.md`
+- `go-runtime-sde3-deep-dive.md`
 
 This adds:
 
@@ -53,3 +54,6 @@ This adds:
 - wait for in-flight requests
 - cancel background workers
 - close DB/Kafka/Redis clients
+- GMP scheduler mental model
+- channel internals: `hchan`, `sendq`, `recvq`, `gopark`, `goready`
+- goroutine leak causes, fixes, and pprof debugging

@@ -31,6 +31,94 @@ var y interface{} = "hello"
 
 It means no required methods, so every type satisfies it.
 
+## Interface Internals: eface vs iface
+
+At runtime, an interface value is not only the value. It also carries type information.
+
+There are two important internal shapes:
+
+```text
+eface = empty interface: interface{} / any
+iface = non-empty interface: interface with methods
+```
+
+## eface: Empty Interface
+
+Used for:
+
+```go
+var x any = 10
+var y interface{} = "hello"
+```
+
+Conceptually, an empty interface has two words:
+
+```text
+_type -> pointer to concrete type metadata
+data  -> pointer to actual value data
+```
+
+Simple picture:
+
+```text
+interface{} / any
+    |
+    |-- _type -> int/string/User type metadata
+    |-- data  -> actual value
+```
+
+Interview line:
+
+```text
+An empty interface stores the concrete type metadata and a pointer to the underlying data.
+```
+
+## iface: Non-Empty Interface
+
+Used for interfaces with methods:
+
+```go
+type Reader interface {
+	Read(p []byte) (int, error)
+}
+```
+
+Conceptually, a non-empty interface has:
+
+```text
+tab  -> itab pointer
+data -> pointer to actual value data
+```
+
+`itab` contains:
+
+```text
+interface type
+concrete type
+function pointers for methods
+```
+
+Simple picture:
+
+```text
+io.Reader
+    |
+    |-- tab  -> itab(interface type + concrete type + method table)
+    |-- data -> actual value
+```
+
+Interview line:
+
+```text
+A non-empty interface stores an itab, which connects the interface type to the concrete type and method implementations, plus a data pointer.
+```
+
+Why this matters:
+
+```text
+It explains nil-interface surprises, dynamic dispatch, and why passing values through interfaces can sometimes cause allocations.
+```
+
 ## Interface nil vs Concrete nil
 
 An interface value has two parts:
@@ -157,4 +245,3 @@ Use:
 Interview line:
 
 > Built-in maps are safe for concurrent reads only if no goroutine writes. Concurrent writes require synchronization.
-

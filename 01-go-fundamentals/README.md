@@ -84,14 +84,20 @@ Partial examples exist in:
 - `interfaces-pointers-slices-maps.md`
 - `errors.md`
 - `generics.md`
+- `go-runtime-memory-sde3-deep-dive.md`
 
 These cover:
 
 - interface nil vs concrete nil
+- interface internals: `eface`, `iface`, `itab`
 - panic inside goroutines
+- defer LIFO order and immediate argument evaluation
 - slice memory leaks
 - concurrent map access
 - `sync.Map` use cases
 - error wrapping and unwrapping
 - interfaces for testing
 - generic functions and type constraints
+- escape analysis, stack vs heap, and allocator basics
+- Go GC: tri-color mark/sweep, write barrier, `GOGC`, `GOMEMLIMIT`
+- slice internals, append growth, and map internals

@@ -748,3 +748,165 @@ Carry forward:
 4. Touch Course Schedule because it was missed.
 5. Maintain fitness rhythm.
 ```
+
+---
+
+# 2026-07-03 - Round 2 Prep Mode Begins
+
+XP:
+
+```text
+LTIM Round 2 Prep:       strong prep day, +1.0
+Interview Intro:         5.5 -> 7.0
+Resume Scenarios:        4.5 -> 5.75
+Go Backend:              5.1 -> 5.6
+SQL Basics:              4.1 -> 4.4
+Node.js Basics:          1.5 -> 1.9
+Coding Practice:         stable, anagram read but no writing
+Project Building:        stable, no progress
+Gaming Balance:          5.0 -> 5.35
+Final Day Score:         8.0 / 10
+```
+
+Fitness XP:
+
+```text
+Workout consistency:     7.6 -> 7.7
+Steps / movement:        7.0 -> 7.0, 12k steps
+Protein / diet control:  8.2 -> 7.9
+Hydration:               8.3 -> 8.3, 3L water
+Sleep discipline:        6.8 -> 7.0, 11 PM sharp
+Overall fitness day:     8.4 -> 8.3
+```
+
+Completed:
+
+```text
+Interview intro prepared well.
+Go revised well.
+SQL revised.
+Resume scenarios prepared.
+Valid Anagram read/revised.
+Node.js basics touched.
+3L water done.
+45 minutes controlled gaming after meaningful work.
+Strong push + core session.
+```
+
+Missed / stable:
+
+```text
+No code written.
+Project work skipped.
+Node.js needs deeper revision.
+Coding practice stable, no XP gain from writing.
+```
+
+Carry forward:
+
+```text
+4 July or next active prep day:
+1. Write Valid Anagram without looking.
+2. Write Course Schedule skeleton.
+3. Write one small Node.js Express route/controller yourself.
+4. Continue LTIM Round 2 spoken prep.
+```
+
+---
+
+# 2026-07-04 - Eye Strain Recovery Day
+
+XP:
+
+```text
+Career / prep:          no gain, no penalty
+Health recovery:        +0.5
+Eye strain management:  +1.0
+Discipline:             stable
+Gaming / stock / project: not relevant
+Overall 4 July:         recovery day, not wasted
+```
+
+Verdict:
+
+```text
+4 July = forced recovery / eye reset day.
+Eye strain is not laziness.
+No XP penalty for valid recovery.
+```
+
+Carry forward:
+
+```text
+5 July:
+1. Final calm LTIM Round 2 prep.
+2. Avoid screen destruction.
+3. Speak answers aloud.
+4. Light coding only.
+5. Early sleep.
+```
+
+---
+
+# 2026-07-06 to 2026-07-15 - LTIM Standby / Documentation Week
+
+Context:
+
+```text
+6 July: LTIM L2 technical round positive.
+7 July: documents submitted.
+8 July: salary discussion done.
+10-14 July: extra documents / salary slips requested and shared.
+15 July: still waiting.
+```
+
+Interpretation:
+
+```text
+This was not a lazy week.
+This was waiting + documentation + offer-anxiety mode.
+Career pipeline was not dead; LTIM was alive and offer processing was active.
+```
+
+XP status:
+
+```text
+Career Momentum:
+Before: 9.0+
+Now:    8.0-8.3
+
+Interview Readiness:
+Before: 8.0
+Now:    6.8-7.2
+
+Job Application Rhythm:
+Before: 7.5
+Now:    5.5-6.0
+
+Project Building:
+Before: 1.75-2.0
+Now:    1.5
+
+Emotional Control:
+Before: 7+
+Now:    6.0-6.5
+
+Overall Life/Career Momentum:
+Now: around 6.8-7.2 / 10
+```
+
+Verdict:
+
+```text
+Week status: standby mode
+Damage: moderate rhythm loss
+Career pipeline: still strong
+Recovery needed: yes
+Panic needed: no
+```
+
+Main line:
+
+```text
+You did not lose the game. You entered waiting mode. Now restart movement while LTIM processes the offer.
+```

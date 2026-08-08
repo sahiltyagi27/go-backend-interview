@@ -51,8 +51,10 @@ For the full step-by-step study path, read:
 | interfaces, pointers, slices, maps | [01-go-fundamentals/interfaces-pointers-slices-maps.md](01-go-fundamentals/interfaces-pointers-slices-maps.md) |
 | error handling | [01-go-fundamentals/errors.md](01-go-fundamentals/errors.md) |
 | generics | [01-go-fundamentals/generics.md](01-go-fundamentals/generics.md) |
+| Go memory runtime SDE-3 deep dive | [01-go-fundamentals/go-runtime-memory-sde3-deep-dive.md](01-go-fundamentals/go-runtime-memory-sde3-deep-dive.md) |
 | ping-pong with channels | [02-go-concurrency/channels-ping-pong.md](02-go-concurrency/channels-ping-pong.md) |
 | graceful shutdown | [02-go-concurrency/graceful-shutdown.md](02-go-concurrency/graceful-shutdown.md) |
+| Go runtime SDE-3 deep dive | [02-go-concurrency/go-runtime-sde3-deep-dive.md](02-go-concurrency/go-runtime-sde3-deep-dive.md) |
 | REST, JWT, pagination | [03-backend-api/rest-jwt-pagination.md](03-backend-api/rest-jwt-pagination.md) |
 | idempotency, rate limiting, upload | [03-backend-api/idempotency-rate-limit-upload.md](03-backend-api/idempotency-rate-limit-upload.md) |
 | SQL, indexes, transactions | [04-database-redis/sql-indexes-transactions.md](04-database-redis/sql-indexes-transactions.md) |
@@ -62,6 +64,7 @@ For the full step-by-step study path, read:
 | retries, timeouts, circuit breaker | [05-microservices-distributed/retries-timeouts-circuit-breaker.md](05-microservices-distributed/retries-timeouts-circuit-breaker.md) |
 | Docker, Kubernetes, CI/CD, GCP | [06-cloud-devops/docker-kubernetes-cicd-gcp.md](06-cloud-devops/docker-kubernetes-cicd-gcp.md) |
 | production debugging and pprof | [07-observability-production/debugging-pprof.md](07-observability-production/debugging-pprof.md) |
+| race detector and profiling | [07-observability-production/debugging-pprof.md](07-observability-production/debugging-pprof.md) |
 | distributed tracing interview answer | [07-observability-production/distributed-tracing.md](07-observability-production/distributed-tracing.md) |
 | production incident communication | [07-observability-production/incident-communication.md](07-observability-production/incident-communication.md) |
 | backend interview reality check | [backend-interview-reality-check.md](backend-interview-reality-check.md) |
