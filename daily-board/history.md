@@ -910,3 +910,73 @@ Main line:
 ```text
 You did not lose the game. You entered waiting mode. Now restart movement while LTIM processes the offer.
 ```
+
+---
+
+# 2026-08-11 - HighLevel SDE-3 Day 1 HLD Prep
+
+Context:
+
+```text
+LTIM still pending BU approval.
+August job push restarted.
+HighLevel prep started with SDE-3 positioning.
+```
+
+Completed:
+
+```text
+1 deep HLD:
+- Multi-tenant Webhook Delivery Engine
+
+2 medium HLDs:
+- Notification / Messaging System
+- URL Shortener + Click Analytics
+```
+
+Core mental model:
+
+```text
+Ingestion API -> Idempotency -> Kafka/Queue -> Workers -> Redis -> DB/ClickHouse -> Observability
+```
+
+Senior nuances learned:
+
+```text
+Transactional Outbox vs Direct Producer + Fail-Fast
+Two-tier deduplication: Redis + DB unique constraint
+Hot partition mitigation: tenant_id + endpoint_id
+HTTP response retry semantics: 2xx, 4xx, 429, 5xx, timeout
+Exponential backoff + jitter
+DLQ + manual replay
+At-least-once delivery and customer-side idempotency
+Reliable recovery path instead of casual "zero loss" wording
+```
+
+Distributed systems toolkit reviewed:
+
+```text
+Transactional Outbox
+Circuit Breaker
+Dead Letter Queue
+Bulkhead Pattern
+Token Bucket Rate Limiter
+Saga Pattern
+```
+
+XP:
+
+```text
+HighLevel HLD Prep:       started -> strong
+System Design Confidence: improved
+SDE-3 Positioning:        improved
+Production Thinking:      improved
+```
+
+Verdict:
+
+```text
+Day 1 complete.
+The HighLevel system design strategy is now 1 master HLD + 2 reusable backup HLDs.
+Next: Day 2 Go LLD concurrency and graceful shutdown code.
+```

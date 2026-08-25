@@ -41,6 +41,16 @@ M = Machine / OS thread
 P = Processor / logical execution context
 ```
 
+## Best Interview Answer
+
+```text
+Go uses an M:N scheduler called the GMP model, where G, M, and P are runtime structures under the hood.
+
+G is a goroutine with its own dynamic stack and execution state, M represents a physical OS thread, and P is the logical execution context limited by GOMAXPROCS. An OS thread, M, must hold a P to execute user Go code.
+
+Each P has its own local run queue and memory cache. If an M gets stuck in a heavy blocking syscall, Go detaches the P and hands it to another thread so the remaining goroutines keep running.
+```
+
 Simple picture:
 
 ```text

@@ -11,6 +11,7 @@ It does not replace the repos we already created. Instead, it acts as the master
 
 For the full step-by-step study path, read:
 
+- [SDE3-MASTER-INDEX.md](SDE3-MASTER-INDEX.md)
 - [ROADMAP.md](ROADMAP.md)
 - [revision-cycle.md](revision-cycle.md)
 - [daily-board/today.md](daily-board/today.md)
@@ -42,6 +43,7 @@ For the full step-by-step study path, read:
 
 | Topic | File |
 |---|---|
+| SDE-3 master index | [SDE3-MASTER-INDEX.md](SDE3-MASTER-INDEX.md) |
 | daily prep board | [daily-board/today.md](daily-board/today.md) |
 | spaced revision cycle | [revision-cycle.md](revision-cycle.md) |
 | Excel XP tracker | [daily-board/interview-fitness-xp-tracker.xlsx](daily-board/interview-fitness-xp-tracker.xlsx) |
@@ -84,6 +86,7 @@ For the full step-by-step study path, read:
 | backend positioning and portfolio projects | [10-senior-engineer-skills/backend-positioning-and-projects.md](10-senior-engineer-skills/backend-positioning-and-projects.md) |
 | AI skills: prompt engineering, RAG, MCP | [10-senior-engineer-skills/ai-skills.md](10-senior-engineer-skills/ai-skills.md) |
 | common company prep strategy | [11-role-specific/common-prep-strategy.md](11-role-specific/common-prep-strategy.md) |
+| HighLevel SDE-3 prep | [11-role-specific/highlevel.md](11-role-specific/highlevel.md) |
 | GreyOrange backend/platform prep | [11-role-specific/greyorange.md](11-role-specific/greyorange.md) |
 | MongoDB role prep | [11-role-specific/mongodb.md](11-role-specific/mongodb.md) |
 

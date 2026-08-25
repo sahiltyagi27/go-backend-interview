@@ -54,6 +54,7 @@ This adds:
 - wait for in-flight requests
 - cancel background workers
 - close DB/Kafka/Redis clients
+- OS signal handling with `signal.Notify` and `signal.NotifyContext`
 - GMP scheduler mental model
 - channel internals: `hchan`, `sendq`, `recvq`, `gopark`, `goready`
 - goroutine leak causes, fixes, and pprof debugging
